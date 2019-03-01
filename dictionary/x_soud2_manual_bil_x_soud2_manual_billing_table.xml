@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Manual Billing Table" max_length="40" name="x_soud2_manual_bil_x_soud2_manual_billing_table" type="collection"/>
+</database>
