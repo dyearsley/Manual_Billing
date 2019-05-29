@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Manual Billing Header" language="en" table="x_soud2_manual_bil_manual_billing_header">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Manual Billing Header</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_manual_billing_header</name>
+            <plural>Manual Billing Headers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-05-29 20:36:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d0eb12181b79f3c054d843f9cd4bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Manual Billing Header</sys_name>
+            <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+            <sys_update_name>sys_documentation_x_soud2_manual_bil_manual_billing_header__en</sys_update_name>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-05-29 20:36:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,30 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="Manual Billing">807983e71bf7e3005ae0c91e1e4bcb1b</application>
         <filter/>
-        <name>Manual Billing Table</name>
+        <name>Manual Billing Items</name>
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
         <roles>x_soud2_manual_bil.user</roles>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
-        <sys_created_on>2019-03-01 16:10:26</sys_created_on>
+        <sys_created_on>2019-05-29 21:00:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>c47983e71bf7e3005ae0c91e1e4bcb1d</sys_id>
+        <sys_id>e951a6d81b79f3c054d843f9cd4bcbbc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Manual Billing Table</sys_name>
+        <sys_name>Manual Billing Items</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name>sys_ui_module_c47983e71bf7e3005ae0c91e1e4bcb1d</sys_update_name>
+        <sys_update_name>sys_ui_module_e951a6d81b79f3c054d843f9cd4bcbbc</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-03-01 16:10:26</sys_updated_on>
-        <table>x_soud2_manual_bil_x_soud2_manual_billing_table</table>
+        <sys_updated_on>2019-05-29 21:00:33</sys_updated_on>
+        <table>x_soud2_manual_bil_manual_billing_items</table>
         <uncancelable>false</uncancelable>
         <view_name/>
     </sys_ui_module>
