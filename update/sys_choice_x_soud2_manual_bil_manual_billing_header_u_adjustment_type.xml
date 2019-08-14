@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_adjustment_type" table="x_soud2_manual_bil_manual_billing_header" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_adjustment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credit</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_manual_billing_header</name>
+            <sequence>0</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-14 16:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1fb9cec1db17ff006c66d211ce9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-14 16:47:04</sys_updated_on>
+            <value>credit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_adjustment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Backbill</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_manual_billing_header</name>
+            <sequence>1</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-14 16:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>57b9cec1db17ff006c66d211ce9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-14 16:47:04</sys_updated_on>
+            <value>backbill</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_adjustment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offset</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_manual_billing_header</name>
+            <sequence>2</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-14 16:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9bb9cec1db17ff006c66d211ce9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-14 16:47:04</sys_updated_on>
+            <value>offset</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_adjustment_type</element>
+            <name>x_soud2_manual_bil_manual_billing_header</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-14 16:47:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>97b9cec1db17ff006c66d211ce9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_adjustment_type</sys_name>
+            <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+            <sys_update_name>sys_choice_x_soud2_manual_bil_manual_billing_header_u_adjustment_type</sys_update_name>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-14 16:47:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
