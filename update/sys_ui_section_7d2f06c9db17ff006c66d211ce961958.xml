@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Notes" section_id="7d2f06c9db17ff006c66d211ce961958" sys_domain="global" table="x_soud2_manual_bil_manual_billing_header" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
+            <element>short_description</element>
             <position>0</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-14 17:11:31</sys_created_on>
-            <sys_id>655f0ac9db17ff006c66d211ce9619c2</sys_id>
+            <sys_created_on>2019-08-16 19:44:10</sys_created_on>
+            <sys_id>4d750131db9fb3406c66d211ce9619ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">7d2f06c9db17ff006c66d211ce961958</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-14 17:11:31</sys_updated_on>
+            <sys_updated_on>2019-08-16 19:44:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-16 19:44:10</sys_created_on>
+            <sys_id>cd750131db9fb3406c66d211ce9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">7d2f06c9db17ff006c66d211ce961958</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-16 19:44:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-14 17:11:31</sys_created_on>
-            <sys_id>e55f0ac9db17ff006c66d211ce9619c2</sys_id>
+            <sys_created_on>2019-08-16 19:44:10</sys_created_on>
+            <sys_id>41750131db9fb3406c66d211ce9619ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">7d2f06c9db17ff006c66d211ce961958</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-14 17:11:31</sys_updated_on>
+            <sys_updated_on>2019-08-16 19:44:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

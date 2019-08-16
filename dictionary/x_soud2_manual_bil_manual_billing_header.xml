@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Manual Billing Header" max_length="40" name="x_soud2_manual_bil_manual_billing_header" type="collection">
-        <element label="Total Adjustment" max_length="20" name="total_adjustment" type="currency"/>
+    <element extends="task" label="Manual Billing" max_length="40" name="x_soud2_manual_bil_manual_billing_header" sizeclass="2" type="collection">
+        <element label="Total Adjustment" max_length="20" name="total_adjustment" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Adjustment Type" mandatory="true" max_length="40" name="u_adjustment_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Credit" sequence="0" value="credit"/>

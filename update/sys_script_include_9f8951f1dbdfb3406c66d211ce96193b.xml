@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_soud2_manual_bil.GetRateCode</api_name>
+        <client_callable>true</client_callable>
+        <description>This will get the Rate Code Description, Revenue Unit and Rate Value</description>
+        <name>GetRateCode</name>
+        <script><![CDATA[var GetRateCode = Class.create();
+GetRateCode.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'GetRateCode'  
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-08-16 21:12:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetRateCode</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-08-16 21:16:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Manual Billing" language="en" table="x_soud2_manual_bil_manual_billing_header">
+    <sys_documentation element="active" label="Active" language="en" table="x_soud2_manual_bil_revenue_unit_approvers">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>active</element>
             <help/>
             <hint/>
-            <label>Manual Billing</label>
+            <label>Active</label>
             <language>en</language>
-            <name>x_soud2_manual_bil_manual_billing_header</name>
-            <plural>Manual Billings</plural>
+            <name>x_soud2_manual_bil_revenue_unit_approvers</name>
+            <plural>Active</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-05-29 20:36:43</sys_created_on>
+            <sys_created_on>2019-08-16 19:40:54</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>cb83a578db9f7f007adf5dd5ce9619c9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Manual Billing</sys_name>
+            <sys_id>85b481fddb5fb3406c66d211ce9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Active</sys_name>
             <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-            <sys_update_name>sys_documentation_x_soud2_manual_bil_manual_billing_header__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_soud2_manual_bil_revenue_unit_approvers_active_en</sys_update_name>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-14 20:05:29</sys_updated_on>
+            <sys_updated_on>2019-08-16 19:40:54</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
