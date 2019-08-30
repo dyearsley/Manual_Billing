@@ -15,15 +15,15 @@
         <mandatory_override>true</mandatory_override>
         <name>x_soud2_manual_bil_manual_billing_header</name>
         <read_only>false</read_only>
-        <read_only_override>false</read_only_override>
-        <reference_qual>active=true^u_account_type=Employee</reference_qual>
+        <read_only_override>true</read_only_override>
+        <reference_qual>active=true^u_account_type=Employee^companyANYTHING</reference_qual>
         <reference_qual_override>true</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2019-08-14 17:03:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bd7dc285db17ff006c66d211ce961961</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>opened_by</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -31,6 +31,6 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_override_bd7dc285db17ff006c66d211ce961961</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-16 19:45:37</sys_updated_on>
+        <sys_updated_on>2019-08-20 20:23:31</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

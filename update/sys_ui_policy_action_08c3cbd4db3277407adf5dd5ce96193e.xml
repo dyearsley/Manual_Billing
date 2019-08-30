@@ -19,7 +19,7 @@
         <sys_updated_by>dyearsley</sys_updated_by>
         <sys_updated_on>2019-07-18 16:33:54</sys_updated_on>
         <table>x_soud2_manual_bil_manual_billing_items</table>
-        <ui_policy display_value="Read only Fields">a3a34bd4db3277407adf5dd5ce9619c6</ui_policy>
+        <ui_policy display_value="Read only Fields Details">a3a34bd4db3277407adf5dd5ce9619c6</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

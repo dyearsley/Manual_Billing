@@ -11,7 +11,7 @@
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_security_acl display_value="GetRateCode">7b1a5df1dbdfb3406c66d211ce961921</sys_security_acl>
+        <sys_security_acl display_value="ManualBilling">7b1a5df1dbdfb3406c66d211ce961921</sys_security_acl>
         <sys_update_name>sys_security_acl_role_702a59b9db9fb3406c66d211ce96193f</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
         <sys_updated_on>2019-08-16 21:15:56</sys_updated_on>

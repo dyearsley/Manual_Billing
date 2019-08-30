@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This will populate the Agency for the Requesters name</description>
+        <field>opened_by</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get Agency</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	//Use Ajax to get the Agency
+	var userId = g_form.getValue('opened_by');
+	var ga = new GlideAjax('ManualBilling');
+	ga.addParam('sysparm_name','getAgency');
+	ga.addParam('sysparm_user',userId);
+	ga.getXML(_getAnswer);
+}
+
+function _getAnswer(response) {
+	var listStr = response.responseXML.documentElement.getAttribute("answer");
+	if (listStr == 'failed'){
+		alert('The lookup failed. Please enter an incident.');
+	} else {		
+		var  listArray = listStr.split(',');		
+		if (listArray.length > 0) {
+			g_form.setValue('company',listArray[0],listArray[1]);
+		}
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-08-20 15:58:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c7d73c8fdb1f7b406c66d211ce961986</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Get Agency</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_script_client_c7d73c8fdb1f7b406c66d211ce961986</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-08-30 20:24:31</sys_updated_on>
+        <table>x_soud2_manual_bil_manual_billing_header</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

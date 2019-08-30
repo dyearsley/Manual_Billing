@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1d19e1dddb2b3b806c66d211ce9619f4" sys_domain="global" table="x_soud2_manual_bil_adjustment_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-27 19:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>991965dddb2b3b806c66d211ce961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_soud2_manual_bil_adjustment_details" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">1d19e1dddb2b3b806c66d211ce9619f4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">36080c88db2333806c66d211ce961935</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-27 19:18:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-27 19:19:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>363969dddb2b3b806c66d211ce961938</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_soud2_manual_bil_adjustment_details" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">1d19e1dddb2b3b806c66d211ce9619f4</sys_ui_form>
+            <sys_ui_section caption="Description" display_value="Description" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">ae3929dddb2b3b806c66d211ce961905</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-27 19:19:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-27 19:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>551965dddb2b3b806c66d211ce961923</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_soud2_manual_bil_adjustment_details" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">1d19e1dddb2b3b806c66d211ce9619f4</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">1519e1dddb2b3b806c66d211ce9619f2</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-27 19:19:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-27 19:18:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>1d19e1dddb2b3b806c66d211ce9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_soud2_manual_bil_adjustment_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1d19e1dddb2b3b806c66d211ce9619f4</sys_update_name>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-27 19:18:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

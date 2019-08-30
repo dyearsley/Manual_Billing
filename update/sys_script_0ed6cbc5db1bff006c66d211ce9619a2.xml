@@ -19,8 +19,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_soud2_manual_bil_manual_billing_items">total_amountVALCHANGESjavascript:global.getCurrencyFilter('x_soud2_manual_bil_manual_billing_items','total_amount', 'USD;USD')^EQ<item endquery="false" field="total_amount" goto="false" newquery="false" operator="VALCHANGES" or="false" value="javascript:global.getCurrencyFilter('x_soud2_manual_bil_manual_billing_items','total_amount', 'USD;USD')"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_soud2_manual_bil_manual_billing_items">total_amountVALCHANGESjavascript:global.getCurrencyFilter('x_soud2_manual_bil_manual_billing_items','total_amount', 'USD;USD')^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>

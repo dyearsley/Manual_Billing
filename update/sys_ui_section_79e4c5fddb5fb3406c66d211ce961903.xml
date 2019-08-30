@@ -98,6 +98,20 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>revenue_unit</element>
+            <position>7</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-08-19 18:55:13</sys_created_on>
+            <sys_id>cd0790b2db9bf7407adf5dd5ce9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_revenue_unit_approvers" sys_domain="global" view="Default view">79e4c5fddb5fb3406c66d211ce961903</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-08-19 18:55:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

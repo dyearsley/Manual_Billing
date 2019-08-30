@@ -22,7 +22,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_soud2_manual_bil_manual_billing_header" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">870f4e89db17ff006c66d211ce9619c4</sys_ui_form>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">7d2f06c9db17ff006c66d211ce961958</sys_ui_section>
+            <sys_ui_section caption="Description" display_value="Description" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">7d2f06c9db17ff006c66d211ce961958</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
             <sys_updated_on>2019-08-14 17:10:44</sys_updated_on>
         </sys_ui_form_section>
@@ -35,7 +35,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_soud2_manual_bil_manual_billing_header" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">870f4e89db17ff006c66d211ce9619c4</sys_ui_form>
-            <sys_ui_section caption="Additional notes" display_value="Additional notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">8f0f4e89db17ff006c66d211ce9619c1</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">8f0f4e89db17ff006c66d211ce9619c1</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
             <sys_updated_on>2019-08-14 17:10:44</sys_updated_on>
         </sys_ui_form_section>

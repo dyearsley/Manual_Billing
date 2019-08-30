@@ -38,7 +38,7 @@
         <name>x_soud2_manual_bil_manual_billing_items</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -55,7 +55,7 @@
         <sys_created_on>2019-05-29 21:03:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0783a578db9f7f007adf5dd5ce9619ef</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Rate Value</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_x_soud2_manual_bil_manual_billing_items_rate_value</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-16 19:55:45</sys_updated_on>
+        <sys_updated_on>2019-08-22 17:48:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
