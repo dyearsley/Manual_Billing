@@ -3,40 +3,49 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>This will calulate the value on a Rate Value Change</description>
-        <field>active</field>
+        <description/>
+        <field>u_revenue_unit</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Calculate Total Rate Value</name>
+        <name>Check Revenue Code Approvers</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
 		return;
 	}
-	//Calculate the Total.
-	var qty = g_form.getValue('quantity');
-	qty = parseInt(qty.replace(/,/g,''));
-	var amount = parseFloat(newValue.replace(/[$,()]/g, ''));	
-	var total = parseFloat(amount) * parseInt(qty);	
-	g_form.setValue('total_amount',parseFloat(total).toFixed(2));
+	//Use Ajax to get the check approvers
+	var revenueUnit = g_form.getValue('u_revenue_unit');
+	var ga = new GlideAjax('ManualBilling');
+	ga.addParam('sysparm_name','checeRevenueApprovers');
+	ga.addParam('sysparm_revenue',revenueUnit);
+	ga.getXML(_getAnswer);
+}
+
+function _getAnswer(response) {
+	var ans = response.responseXML.documentElement.getAttribute("answer");
+	if (ans == 'no approvers'){
+		alert('There are no approvers. You will not be allowed to submit for approval until there are approvers');
+	} else {
+			g_form.setValue('state',1,'Open');
+		}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
-        <sys_created_on>2019-08-14 20:26:40</sys_created_on>
+        <sys_created_on>2019-09-18 19:43:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>841a76c5dbd7ff006c66d211ce9619b8</sys_id>
-        <sys_mod_count>34</sys_mod_count>
-        <sys_name>Calculate Total Rate Value</sys_name>
+        <sys_id>314d7258db0c88107adf5dd5ce96198d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Check Revenue Code Approvers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name>sys_script_client_841a76c5dbd7ff006c66d211ce9619b8</sys_update_name>
+        <sys_update_name>sys_script_client_314d7258db0c88107adf5dd5ce96198d</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-29 21:35:49</sys_updated_on>
+        <sys_updated_on>2019-09-19 13:39:39</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

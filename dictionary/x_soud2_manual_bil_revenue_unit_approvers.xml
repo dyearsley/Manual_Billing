@@ -3,7 +3,7 @@
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Approver" max_length="32" name="approver" reference="sys_user" reference_qual="active=true^u_account_type=Employee^EQ" reference_qual_condition="active=true^u_account_type=Employee^EQ" type="glide_list"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="Revenue Unit" mandatory="true" max_length="32" name="revenue_unit" reference="u_rate_code" reference_qual="u_state=1^EQ" reference_qual_condition="u_state=1^EQ" type="reference"/>
+        <element display="true" label="Revenue Unit" mandatory="true" max_length="32" name="revenue_unit" reference="u_cat_approval_group_units" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference" unique="true"/>
         <index name="index">
             <element name="approver"/>
         </index>

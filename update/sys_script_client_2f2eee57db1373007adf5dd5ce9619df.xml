@@ -3,38 +3,46 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>This will populate the Agency for the Requesters name</description>
+        <description>This will fill in the Revenue , Rate Code. Rate Value when a Rate Description is selected.</description>
         <field>u_rate_description</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Get Rate Value</name>
+        <name>Get Rate Information</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
 		return;
 	}
-	
 	//Use Ajax to get the Agency
-	var rateCode = g_form.getValue('u_rate_description');
-	alert('ratecode: ' + rateCode);
+	var rateRot = g_form.getValue('u_rate_description');
 	var ga = new GlideAjax('ManualBilling');
-	ga.addParam('sysparm_name','getRevenueCode');
-	ga.addParam('sysparm_revenue',rateCode);
-	ga.getXML(_getAnswer);
+	ga.addParam('sysparm_name','getRateInformation');
+	ga.addParam('sysparm_revenue',rateRot);
+	ga.getXMLAnswer(_getAnswer);
 }
 
-function _getAnswer(response) {
-	var ans = response.responseXML.documentElement.getAttribute("answer");
-	alert('ans: ' + ans);
-	var ansList = ans.split(',');
+function _getAnswer(ans) {	
 	if (ans == 'failed') {
 		alert('The lookup failed. Please create an incident.');
 	} else {
-		g_form.setValue('u_rate_code',ansList[0]);
-		g_form.setValue('u_revenue_unit',ansList[1],ansList[2]);
-		g_form.setValue('u_rate_value',parseFloat(ansList[3]).toFixed(2));
-	}
+		var ansList = ans.split(',');
+		g_form.setValue('u_revenue_unit',ansList[0],ansList[1]);
+		g_form.setValue('u_rate_code',ansList[2]);
+		g_form.setValue('u_rate_value',parseFloat(ansList[3]).toFixed(2));		
+		
+		var qty = g_form.getValue('u_quantity');
+		
+		if (!isNaN(qty) && qty != '') {			
+			qty = parseFloat(qty.replace(/,/g,''));
+			var amount = g_form.getValue('u_rate_value');
+			amount = parseFloat(amount.replace(/\$|,/g, ''));			
+			var total = parseFloat(amount) * parseFloat(qty);
+			g_form.setValue('u_total',parseFloat(total).toFixed(2));
+		} else {
+			g_form.setValue('u_total',parseFloat('0.00').toFixed(2));
+		}
+	}	
 }
 
 ]]></script>
@@ -44,8 +52,8 @@ function _getAnswer(response) {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>2f2eee57db1373007adf5dd5ce9619df</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>Get Rate Value</sys_name>
+        <sys_mod_count>71</sys_mod_count>
+        <sys_name>Get Rate Information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -53,7 +61,7 @@ function _getAnswer(response) {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_client_2f2eee57db1373007adf5dd5ce9619df</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-30 21:28:27</sys_updated_on>
+        <sys_updated_on>2019-09-18 19:19:57</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

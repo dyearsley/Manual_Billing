@@ -15,11 +15,12 @@
         <application/>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_soud2_manual_bil_manual_billing_items</collection>
+        <collection>x_soud2_manual_bil_adjustment_details</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_soud2_manual_bil_manual_billing_items">total_amountVALCHANGESjavascript:global.getCurrencyFilter('x_soud2_manual_bil_manual_billing_items','total_amount', 'USD;USD')^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_soud2_manual_bil_adjustment_details">u_totalVALCHANGESjavascript:global.getCurrencyFilter('x_soud2_manual_bil_adjustment_details','u_total', 'USD;USD')^EQ<item endquery="false" field="u_total" goto="false" newquery="false" operator="VALCHANGES" or="false" value="javascript:global.getCurrencyFilter('x_soud2_manual_bil_adjustment_details','u_total', 'USD;USD')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
@@ -35,21 +36,21 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	// Get totat for the Billing record.
-	var ga = new GlideAggregate('x_soud2_manual_bil_manual_billing_items');
-	ga.addQuery('manual_billing_header',current.manual_billing_header);
-	ga.addAggregate('SUM','total_amount');
+	// Get totat for the Billing record.	
+	var ga = new GlideAggregate('x_soud2_manual_bil_adjustment_details');
+	ga.addQuery('parent',current.parent);
+	ga.addAggregate('SUM','u_total');
 	ga.setGroup(false);
 	ga.query();
 	
 	var rt = 0;
 	
 	while(ga.next()) {
-		rt = ga.getAggregate('SUM','total_amount');
+		rt = ga.getAggregate('SUM','u_total');
 	}
 		
 	var gr = new GlideRecord('x_soud2_manual_bil_manual_billing_header');
-	gr.get(current.manual_billing_header);	
+	gr.get(current.parent);	
 	gr.total_adjustment = rt;
 	gr.update();
 })(current, previous);]]></script>
@@ -59,7 +60,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0ed6cbc5db1bff006c66d211ce9619a2</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Update Billing Total</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -68,7 +69,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_0ed6cbc5db1bff006c66d211ce9619a2</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-16 20:14:22</sys_updated_on>
+        <sys_updated_on>2019-09-06 19:59:39</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

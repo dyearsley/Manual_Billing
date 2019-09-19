@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>,edge_encryption_enabled=true,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter,ref_ac_columns=u_revenue_unit</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -35,12 +35,12 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_soud2_manual_bil_revenue_unit_approvers">x_soud2_manual_bil_revenue_unit_approvers</reference>
+        <reference display_value="" name="u_rate_code">u_rate_code</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>active=true^EQ</reference_qual>
-        <reference_qual_condition table="x_soud2_manual_bil_revenue_unit_approvers">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <reference_qual>u_state=1^EQ</reference_qual>
+        <reference_qual_condition table="u_rate_code">u_state=1^EQ<item endquery="false" field="u_state" goto="false" newquery="false" operator="=" or="false" value="1"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -52,7 +52,7 @@
         <sys_created_on>2019-08-27 17:23:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>badec1d9dba73b806c66d211ce96195e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Rate Description</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -60,7 +60,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_x_soud2_manual_bil_adjustment_details_u_rate_description</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-29 21:32:18</sys_updated_on>
+        <sys_updated_on>2019-09-13 21:09:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

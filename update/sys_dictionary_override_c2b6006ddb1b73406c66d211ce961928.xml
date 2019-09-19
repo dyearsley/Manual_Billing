@@ -11,7 +11,7 @@
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
         <element>assigned_to</element>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <mandatory_override>true</mandatory_override>
         <name>x_soud2_manual_bil_manual_billing_header</name>
         <read_only>true</read_only>
@@ -23,7 +23,7 @@
         <sys_created_on>2019-08-15 20:31:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c2b6006ddb1b73406c66d211ce961928</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>assigned_to</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -31,6 +31,6 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_override_c2b6006ddb1b73406c66d211ce961928</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-20 20:29:52</sys_updated_on>
+        <sys_updated_on>2019-09-06 19:47:23</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

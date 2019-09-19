@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="Decimal">decimal</internal_type>
         <mandatory>true</mandatory>
-        <max_length>19</max_length>
+        <max_length>21</max_length>
         <name>x_soud2_manual_bil_adjustment_details</name>
         <next_element/>
         <primary>false</primary>
@@ -50,7 +50,7 @@
         <sys_created_on>2019-08-27 17:57:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b5769d95dbe73b806c66d211ce9619f8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Quantity</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_x_soud2_manual_bil_adjustment_details_u_quantity</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-30 17:40:28</sys_updated_on>
+        <sys_updated_on>2019-09-09 15:22:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
