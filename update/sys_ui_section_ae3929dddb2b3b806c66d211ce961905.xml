@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Description" section_id="ae3929dddb2b3b806c66d211ce961905" sys_domain="global" table="x_soud2_manual_bil_adjustment_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
+            <element>u_has_approver</element>
             <position>0</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-27 19:19:13</sys_created_on>
-            <sys_id>fa3969dddb2b3b806c66d211ce961944</sys_id>
+            <sys_created_on>2019-09-24 18:39:30</sys_created_on>
+            <sys_id>fdac2956dbc8c4507adf5dd5ce961918</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Description" display_value="Description" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">ae3929dddb2b3b806c66d211ce961905</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-27 19:19:13</sys_updated_on>
+            <sys_updated_on>2019-09-24 18:39:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-24 18:39:30</sys_created_on>
+            <sys_id>b5ac2956dbc8c4507adf5dd5ce961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description" display_value="Description" name="x_soud2_manual_bil_adjustment_details" sys_domain="global" view="Default view">ae3929dddb2b3b806c66d211ce961905</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-09-24 18:39:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

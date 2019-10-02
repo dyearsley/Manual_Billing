@@ -24,11 +24,11 @@
 
 function _getAnswer(response) {
 	var ans = response.responseXML.documentElement.getAttribute("answer");
-	if (ans == 'no approvers'){
-		alert('There are no approvers. You will not be allowed to submit for approval until there are approvers');
+	if (ans=='true') {
+		g_form.setValue('state',1,'Open');		
 	} else {
-			g_form.setValue('state',1,'Open');
-		}
+		alert('There are no approvers. You will not be allowed to submit for approval until this revenue unit has approvers.');
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
@@ -36,7 +36,7 @@ function _getAnswer(response) {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>314d7258db0c88107adf5dd5ce96198d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Check Revenue Code Approvers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -45,7 +45,7 @@ function _getAnswer(response) {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_client_314d7258db0c88107adf5dd5ce96198d</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-09-19 13:39:39</sys_updated_on>
+        <sys_updated_on>2019-09-24 19:06:39</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_soud2_manual_bil_adjustment_details" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>0</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a98b9726dbc448507adf5dd5ce96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-09-25 21:22:22</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Closed Skipped</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>0</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>258b1b26dbc448507adf5dd5ce9619dd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-10-01 17:18:03</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>1</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a58b9726dbc448507adf5dd5ce961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-09-25 21:22:22</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>2</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e98b9726dbc448507adf5dd5ce961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-09-25 21:22:22</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>3</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a98b1b26dbc448507adf5dd5ce9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-09-25 21:22:22</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Rejected</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>4</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-10-01 17:14:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2c5c91a4db5c04907adf5dd5ce9619d1</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-10-01 19:30:40</sys_updated_on>
+            <value>55</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Canceled</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>5</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ed8b1b26dbc448507adf5dd5ce9619d9</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-10-01 17:18:20</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Billed</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sequence>6</sequence>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>698b1b26dbc448507adf5dd5ce9619e0</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-10-01 19:30:27</sys_updated_on>
+            <value>50</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-09-25 21:22:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>658b9726dbc448507adf5dd5ce96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+            <sys_update_name>sys_choice_x_soud2_manual_bil_adjustment_details_state</sys_update_name>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-09-25 21:22:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

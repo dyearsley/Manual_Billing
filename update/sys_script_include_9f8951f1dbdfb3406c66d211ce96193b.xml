@@ -13,25 +13,21 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	
 	checeRevenueApprovers: function(){
 		var revenue = this.getParameter('sysparm_revenue');
-		
+		var query = 'revenue_unit=' + revenue + '^approverISNOTEMPTY';
 		var gr = new GlideRecord('x_soud2_manual_bil_revenue_unit_approvers');
-		gr.addQuery('revenue_unit',revenue);
+		gr.addEncodedQuery(query);
 		gr.setLimit(1);
 		gr.query();
-		
+		var count = gr.getRowCount();
 		if (gr.hasNext()) {
-			if (gr.approver) {
-				return 'approvers';
-			} else {
-				return 'no approvers';
-			}
+			return 'true';
+		} else {
+			return 'false';
 		}
-		return 'no approvers';
 	},
 	
 	getAgency: function() {
-		var userRec = this.getParameter('sysparm_user');
-		
+		var userRec = this.getParameter('sysparm_user');		
 		var gr = new GlideRecord('sys_user');
 		if (gr.get(userRec)) {
 			var response = [];
@@ -63,7 +59,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-08-16 21:12:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
-        <sys_mod_count>82</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name>ManualBilling</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy>read</sys_policy>
@@ -71,6 +67,6 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-09-18 20:56:00</sys_updated_on>
+        <sys_updated_on>2019-09-24 19:01:47</sys_updated_on>
     </sys_script_include>
 </record_update>

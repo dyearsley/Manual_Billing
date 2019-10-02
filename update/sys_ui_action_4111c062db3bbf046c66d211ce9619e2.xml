@@ -5,12 +5,12 @@
         <client>false</client>
         <client_script_v2/>
         <comments>This will trigger the approval process.</comments>
-        <condition>current.state==4 &amp;&amp; approval=='rejected'</condition>
+        <condition>current.state==55 &amp;&amp; current.approval=='rejected'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
         <form_context_menu>true</form_context_menu>
-        <form_link>false</form_link>
+        <form_link>true</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <hint>Only click this when the Manual billing is complete and ready to bill</hint>
@@ -25,7 +25,7 @@
         <list_style/>
         <name>Resubmit Adjustment</name>
         <onclick/>
-        <order>1000</order>
+        <order>1005</order>
         <script><![CDATA[current.approval='requested';
 current.state=2;
 action.setRedirectURL(current);
@@ -40,7 +40,7 @@ current.update();]]></script>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>4111c062db3bbf046c66d211ce9619e2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Resubmit Adjustment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -49,7 +49,7 @@ current.update();]]></script>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_ui_action_4111c062db3bbf046c66d211ce9619e2</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-09-12 19:14:02</sys_updated_on>
+        <sys_updated_on>2019-10-01 17:23:27</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

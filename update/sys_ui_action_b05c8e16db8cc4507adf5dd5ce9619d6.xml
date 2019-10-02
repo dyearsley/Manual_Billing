@@ -4,16 +4,16 @@
         <active>true</active>
         <client>false</client>
         <client_script_v2/>
-        <comments>This will trigger the approval process.</comments>
-        <condition>current.approval=='not requested'</condition>
+        <comments/>
+        <condition>gs.hasRole('workflow_admin') &amp;&amp; new global.Workflow().hasWorkflow(current)</condition>
         <form_action>true</form_action>
-        <form_button>true</form_button>
+        <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
-        <form_context_menu>true</form_context_menu>
-        <form_link>false</form_link>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
-        <hint>Only click this when the Manual billing is complete and ready to bill</hint>
+        <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
@@ -23,59 +23,31 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Request Approval</name>
+        <name>Workflow Billing Context</name>
         <onclick/>
-        <order>1003</order>
-        <script><![CDATA[var error = false;
-var gr = new GlideRecord('x_soud2_manual_bil_adjustment_details');
-gr.addQuery('parent',current.sys_id);
-gr.query();
-
-while (!gr.hasNext()) {
-	gs.addInfoMessage('There are no records to approve');
-	current.setAbortAction(true);
-}
-while (gr.next()) {
-	var query = 'revenue_unit=' + gr.u_revenue_unit + '^approverISEMPTY';
-	var grA = new GlideRecord('x_soud2_manual_bil_revenue_unit_approvers');
-	grA.addEncodedQuery(query);
-	grA.setLimit(1);
-	grA.query();
-	
-	if (grA.hasNext()){
-		gs.addInfoMessage('You do not have any approvers for this Adjustment Record: ' + gr.number);
-		error = true;
-	}
-}
-if (error) {
-	action.setRedirectURL(current);
-} else {
-	current.approval='requested';
-	current.update();
-	action.setRedirectURL(current);
-}
-
-]]></script>
+        <order>100</order>
+        <script><![CDATA[var url = 'wf_context.do?sysparm_query=id=' + current.sys_id.toString();
+action.setRedirectURL(url);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
-        <sys_created_on>2019-09-10 17:51:16</sys_created_on>
+        <sys_created_on>2019-09-24 20:58:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>a8f95d35dbb73b046c66d211ce961980</sys_id>
-        <sys_mod_count>35</sys_mod_count>
-        <sys_name>Request Approval</sys_name>
+        <sys_id>b05c8e16db8cc4507adf5dd5ce9619d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Workflow Billing Context</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name>sys_ui_action_a8f95d35dbb73b046c66d211ce961980</sys_update_name>
+        <sys_update_name>sys_ui_action_b05c8e16db8cc4507adf5dd5ce9619d6</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-10-02 17:45:27</sys_updated_on>
+        <sys_updated_on>2019-09-27 14:35:58</sys_updated_on>
         <table>x_soud2_manual_bil_manual_billing_header</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
