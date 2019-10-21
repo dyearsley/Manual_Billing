@@ -1,198 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="c7fd5ed41b79f3c054d843f9cd4bcba4" sys_domain="global" table="x_soud2_manual_bil_manual_billing_header" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>number</element>
             <position>0</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>52c7dd96db6733c06c66d211ce9619d5</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>a7c2e53adb1cc0107adf5dd5ce961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>1</position>
-            <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>d2c7dd96db6733c06c66d211ce9619d5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
-            <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>56c7dd96db6733c06c66d211ce9619d5</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>2bc2e53adb1cc0107adf5dd5ce961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_adjustment_type</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>d6c7dd96db6733c06c66d211ce9619d5</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>abc2e53adb1cc0107adf5dd5ce961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_by</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>5ac7dd96db6733c06c66d211ce9619d5</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>2fc2e53adb1cc0107adf5dd5ce961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>company</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>dac7dd96db6733c06c66d211ce9619d5</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>afc2e53adb1cc0107adf5dd5ce961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>5ec7dd96db6733c06c66d211ce9619d5</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>23c2e53adb1cc0107adf5dd5ce961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>7</position>
+            <element>u_incident</element>
+            <position>6</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>dec7dd96db6733c06c66d211ce9619d5</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>a3c2e53adb1cc0107adf5dd5ce961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>52c7dd96db6733c06c66d211ce9619d6</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>27c2e53adb1cc0107adf5dd5ce961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approval</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>d2c7dd96db6733c06c66d211ce9619d6</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>a7c2e53adb1cc0107adf5dd5ce961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
-            <position>10</position>
-            <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>56c7dd96db6733c06c66d211ce9619d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
-            <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>total_adjustment</element>
-            <position>11</position>
+            <position>9</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>d6c7dd96db6733c06c66d211ce9619d6</sys_id>
+            <sys_created_on>2019-10-08 17:29:08</sys_created_on>
+            <sys_id>2bc2e53adb1cc0107adf5dd5ce961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>12</position>
-            <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>5ac7dd96db6733c06c66d211ce9619d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
-            <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>13</position>
-            <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-30 20:36:56</sys_created_on>
-            <sys_id>dac7dd96db6733c06c66d211ce9619d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
-            <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-30 20:36:56</sys_updated_on>
+            <sys_updated_on>2019-10-08 17:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

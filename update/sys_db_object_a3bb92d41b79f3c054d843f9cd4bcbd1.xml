@@ -5,7 +5,7 @@
         <alter_access>false</alter_access>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <extension_model>class</extension_model>
@@ -24,7 +24,7 @@
         <sys_created_on>2019-05-29 20:36:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a3bb92d41b79f3c054d843f9cd4bcbd1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Manual Billing</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -32,8 +32,8 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_db_object_a3bb92d41b79f3c054d843f9cd4bcbd1</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-14 20:05:29</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_on>2019-10-09 14:36:33</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_soud2_manual_bil.user" name="x_soud2_manual_bil.user">a36903e71bf7e3005ae0c91e1e4bcbe2</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

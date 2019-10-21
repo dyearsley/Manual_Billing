@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-10-03 16:22:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c4b36749db9844107adf5dd5ce96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.updateMultiple</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_scope_privilege_c4b36749db9844107adf5dd5ce96190a</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-10-03 16:22:52</sys_updated_on>
+        <target_name>GlideRecord.updateMultiple</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Check Revenue Unit Approvers</name>
+        <run_as display_value="David Yearsley">2e6b9506ec9f24009c0a9b586f8cc2a2</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-10-07 14:34:28</run_start>
+        <run_time>1970-01-01 14:11:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var msg = '';
+var gr = new GlideRecord('x_soud2_manual_bil_revenue_unit_approvers');
+gr.addQuery('active',true);
+gr.query();
+
+while (gr.next()) {
+	var approvers = gr.approver;
+	var approversList = approvers.split(',');
+	for (i=0;i++;i<= approversList.length) {
+		var grU = new GlideRecord('sys_users');
+		if (grU.get(approverList)) {
+			if (grU.active != true) {
+				msg = msg + 'Name: ' + grU.name + '\n';
+			}
+		}
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-10-07 15:42:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9331bfd2db5840107adf5dd5ce961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Revenue Unit Approvers</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sysauto_script_9331bfd2db5840107adf5dd5ce961952</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-10-07 15:42:59</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
