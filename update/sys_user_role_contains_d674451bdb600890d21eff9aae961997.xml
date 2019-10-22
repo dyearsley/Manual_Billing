@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_soud2_manual_bil.user" name="x_soud2_manual_bil.user">a36903e71bf7e3005ae0c91e1e4bcbe2</contains>
+        <role display_value="x_soud2_manual_bil.admin" name="x_soud2_manual_bil.admin">fe4a8fe71bf7e3005ae0c91e1e4bcbe6</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-10-22 14:49:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d674451bdb600890d21eff9aae961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_soud2_manual_bil.user.x_soud2_manual_bil.admin</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_user_role_contains_d674451bdb600890d21eff9aae961997</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:49:16</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

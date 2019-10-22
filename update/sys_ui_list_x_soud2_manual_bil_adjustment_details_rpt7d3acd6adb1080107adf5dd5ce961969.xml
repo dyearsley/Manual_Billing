@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>parent</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>approval</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_elcid</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_revenue_unit</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_rate_value</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,7 +108,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_total</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,7 +123,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_rate_code</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -138,7 +138,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_quantity</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -153,7 +153,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
@@ -168,7 +168,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
@@ -183,7 +183,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>parent.parent</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="9e7f7017db6040907adf5dd5ce9619bb">385a492edb1080107adf5dd5ce9619b1</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="NULL" relationship="NULL" sys_domain="global" view="c670dd87dbe4c090d21eff9aae961972">385a492edb1080107adf5dd5ce9619b1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
@@ -221,7 +221,7 @@
             <sys_updated_by>dyearsley</sys_updated_by>
             <sys_updated_on>2019-10-07 21:03:41</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt7d3acd6adb1080107adf5dd5ce961969" name="RPT7d3acd6adb1080107adf5dd5ce961969">9e7f7017db6040907adf5dd5ce9619bb</view>
+            <view display_value="Rpt7d3acd6adb1080107adf5dd5ce961969" name="RPT7d3acd6adb1080107adf5dd5ce961969">c670dd87dbe4c090d21eff9aae961972</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
