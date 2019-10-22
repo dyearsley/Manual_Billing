@@ -19,7 +19,8 @@ var year = gDate(year);
 var gr = new GlideRecord('x_soud2_manual_bil_manual_billing_header');
 gr.addQuery('state',3);
 gr.query();
-
+//Testing
+if (x==1) {}
 if (gr.hasNext()) {
 	gs.warn('a');
 	gr.setValue('state',50);
@@ -31,7 +32,7 @@ if (gr.hasNext()) {
         <sys_created_on>2019-10-08 17:56:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>22d8e1b2db5cc0107adf5dd5ce961991</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Mark Records for Billing and Create Billing File</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -39,7 +40,7 @@ if (gr.hasNext()) {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sysauto_script_22d8e1b2db5cc0107adf5dd5ce961991</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-10-09 14:27:00</sys_updated_on>
+        <sys_updated_on>2019-10-22 19:35:50</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
