@@ -49,7 +49,7 @@
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2019-10-07 20:34:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ea57219bdb248850f7867bedae9619da</sys_id>
+        <sys_id>f0f20e1bdbe440907adf5dd5ce96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Billing Date</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_x_soud2_manual_bil_manual_billing_header_u_billing_date</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-10-22 17:21:47</sys_updated_on>
+        <sys_updated_on>2019-10-22 19:22:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
