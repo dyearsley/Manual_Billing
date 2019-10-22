@@ -4,24 +4,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_soud2_manual_bil_revenue_unit_approvers</name>
+        <name>x_soud2_manual_bil_manual_billing_header</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
-        <sys_created_on>2019-08-16 19:36:07</sys_created_on>
+        <sys_created_on>2019-05-29 20:36:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>d63c3609db5444107adf5dd5ce9619be</sys_id>
+        <sys_id>9c946d5bdb2440907adf5dd5ce9619db</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_soud2_manual_bil_revenue_unit_approvers</sys_name>
+        <sys_name>x_soud2_manual_bil_manual_billing_header</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name>ua_table_licensing_config_d63c3609db5444107adf5dd5ce9619be</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_9c946d5bdb2440907adf5dd5ce9619db</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-08-16 19:36:07</sys_updated_on>
+        <sys_updated_on>2019-05-29 20:36:43</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

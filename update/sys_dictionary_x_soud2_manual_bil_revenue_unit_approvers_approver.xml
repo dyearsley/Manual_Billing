@@ -57,7 +57,7 @@
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2019-08-16 19:36:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>8e3c3609db5444107adf5dd5ce961999</sys_id>
+        <sys_id>44946d5bdb2440907adf5dd5ce96199c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Approver</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_x_soud2_manual_bil_revenue_unit_approvers_approver</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-10-03 13:30:41</sys_updated_on>
+        <sys_updated_on>2019-10-22 17:09:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

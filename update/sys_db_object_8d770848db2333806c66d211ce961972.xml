@@ -13,7 +13,7 @@
         <label>Adjustment Details</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_soud2_manual_bil_adjustment_details</name>
-        <number_ref display_value="ADJ">68970488db2333806c66d211ce96190f</number_ref>
+        <number_ref display_value="AJD">68970488db2333806c66d211ce96190f</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Task" name="task">18c2ba13910220009c0accef55f87994</super_class>

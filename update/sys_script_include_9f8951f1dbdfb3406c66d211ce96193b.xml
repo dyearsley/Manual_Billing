@@ -10,6 +10,19 @@
 ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	
 	//type: 'ManualBilling',
+	checkAdjustmentRecord: function(sysid,approval){
+		var ans = false;
+		if  (approval == 'not requested') {
+			var gr = new GlideRecord('x_soud2_manual_bil_adjustment_details');
+			gr.addQuery('u_billing_adjustment', sysid);
+			gr.setLimit(1);
+			gr.query();
+			if (gr.hasNext()) {
+				ans = true;
+			}
+			return ans;
+		}
+	},
 	
 	checeRevenueApprovers: function(){
 		var revenue = this.getParameter('sysparm_revenue');
@@ -18,7 +31,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		gr.addEncodedQuery(query);
 		gr.setLimit(1);
 		gr.query();
-		var count = gr.getRowCount();
+		
 		if (gr.hasNext()) {
 			return 'true';
 		} else {
@@ -27,7 +40,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	},
 	
 	getAgency: function() {
-		var userRec = this.getParameter('sysparm_user');		
+		var userRec = this.getParameter('sysparm_user');
 		var gr = new GlideRecord('sys_user');
 		if (gr.get(userRec)) {
 			var response = [];
@@ -59,7 +72,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-08-16 21:12:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
-        <sys_mod_count>87</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_name>ManualBilling</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy>read</sys_policy>
@@ -67,6 +80,6 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-09-24 19:01:47</sys_updated_on>
+        <sys_updated_on>2019-10-22 17:07:10</sys_updated_on>
     </sys_script_include>
 </record_update>
