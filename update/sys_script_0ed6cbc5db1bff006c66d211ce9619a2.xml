@@ -36,9 +36,10 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	// Get totat for the Billing record.	
+	// Get totat for the Billing record.
+	var qry = 'u_billing_adjustment=' + current.u_billing_adjustment + '^stateNOT IN55,4,50';
 	var ga = new GlideAggregate('x_soud2_manual_bil_adjustment_details');
-	ga.addQuery('u_billing_adjustment',current.u_billing_adjustment);
+	ga.addEncodedQuery(qry);
 	ga.addAggregate('SUM','u_total');
 	ga.setGroup(false);
 	ga.query();
@@ -59,7 +60,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0ed6cbc5db1bff006c66d211ce9619a2</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Update Billing Total</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -68,7 +69,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_0ed6cbc5db1bff006c66d211ce9619a2</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-10-23 16:55:30</sys_updated_on>
+        <sys_updated_on>2019-10-31 20:47:36</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

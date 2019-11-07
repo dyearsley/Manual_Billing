@@ -3,182 +3,182 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>85e5f592db0cc4507adf5dd5ce96197c</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>6fce201edbfc80d07adf5dd5ce961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>8de5f592db0cc4507adf5dd5ce96197c</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>efce201edbfc80d07adf5dd5ce961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>parent</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <element>u_billing_adjustment</element>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>01e5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>63ce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>81e5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>e3ce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>approval</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>05e5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>67ce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_elcid</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>85e5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>e7ce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_rate_description</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>09e5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>6bce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_rate_code</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>89e5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>ebce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_rate_value</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>0de5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>6fce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_revenue_unit</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>8de5f592db0cc4507adf5dd5ce96197d</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>efce201edbfc80d07adf5dd5ce961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_quantity</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>01e5f592db0cc4507adf5dd5ce96197e</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>63ce201edbfc80d07adf5dd5ce961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_total</element>
-            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">bce5f592db0cc4507adf5dd5ce961979</list_id>
+            <list_id display_value="x_soud2_manual_bil_adjustment_details" element="NULL" name="x_soud2_manual_bil_adjustment_details" parent="x_soud2_manual_bil_manual_billing_header" relationship="NULL" sys_domain="global" view="Default view">e3ce201edbfc80d07adf5dd5ce961974</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
-            <sum>false</sum>
+            <sum>true</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
-            <sys_id>81e5f592db0cc4507adf5dd5ce96197e</sys_id>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
+            <sys_id>e3ce201edbfc80d07adf5dd5ce961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -192,10 +192,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-09-24 19:19:51</sys_created_on>
+            <sys_created_on>2019-10-31 20:56:22</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>bce5f592db0cc4507adf5dd5ce961979</sys_id>
+            <sys_id>e3ce201edbfc80d07adf5dd5ce961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_soud2_manual_bil_adjustment_details</sys_name>
             <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -204,7 +204,7 @@
             <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
             <sys_update_name>sys_ui_list_x_soud2_manual_bil_adjustment_details_x_soud2_manual_bil_manual_billing_header_null</sys_update_name>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-09-24 19:19:51</sys_updated_on>
+            <sys_updated_on>2019-10-31 20:56:22</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -11,7 +11,7 @@
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_security_acl display_value="x_soud2_manual_bil_manual_billing_header">18eb12181b79f3c054d843f9cd4bcb0b</sys_security_acl>
+        <sys_security_acl display_value="x_soud2_manual_bil_manual_billing_header.*">18eb12181b79f3c054d843f9cd4bcb0b</sys_security_acl>
         <sys_update_name>sys_security_acl_role_1ceb12181b79f3c054d843f9cd4bcb0e</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
         <sys_updated_on>2019-05-29 20:36:43</sys_updated_on>
