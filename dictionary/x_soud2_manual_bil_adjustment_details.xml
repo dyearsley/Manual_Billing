@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Adjustment Details" max_length="40" name="x_soud2_manual_bil_adjustment_details" sizeclass="16" type="collection">
+    <element audit="true" extends="task" label="Adjustment Details" max_length="40" name="x_soud2_manual_bil_adjustment_details" sizeclass="20" type="collection">
         <element label="Billing Adjustment" max_length="32" name="u_billing_adjustment" read_only="true" reference="x_soud2_manual_bil_manual_billing_header" type="reference"/>
         <element label="Elcid" mandatory="true" max_length="32" name="u_elcid" reference="u_elcid" reference_qual="u_act_fl=Y^EQ" reference_qual_condition="u_act_fl=Y^EQ" type="reference"/>
         <element attributes="scale=4" label="Quantity" mandatory="true" max_length="21" name="u_quantity" type="decimal"/>
