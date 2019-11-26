@@ -21,7 +21,7 @@
 		var qty = (newValue.replace(/,/g,''));
 		var amount = g_form.getValue('u_rate_value');
 		var firstChar = amount.charAt(0);
-		if (firstChar == '(') {
+		if (firstChar == '(' || firstChar == '-' ) {
 			multiplier = -1;
 		}
 		amount = amount.replace(/[^0-9.+-,]/g,'');
@@ -36,7 +36,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cb81078ddbd7ff006c66d211ce9619d4</sys_id>
-        <sys_mod_count>87</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_name>Calculate Total on Quantity Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_client_cb81078ddbd7ff006c66d211ce9619d4</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-11-26 19:13:02</sys_updated_on>
+        <sys_updated_on>2019-11-26 22:05:13</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
