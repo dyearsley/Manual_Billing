@@ -52,7 +52,6 @@ if (error) {
 	
 	while (gr.next()) {		
 		gr.approval = 'requested';
-		gr.state = 2;
 		gr.update();		
 	}
 	
@@ -73,7 +72,7 @@ if (error) {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>a8f95d35dbb73b046c66d211ce961980</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -82,7 +81,7 @@ if (error) {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_ui_action_a8f95d35dbb73b046c66d211ce961980</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-11-21 18:09:10</sys_updated_on>
+        <sys_updated_on>2019-11-26 19:22:45</sys_updated_on>
         <table>x_soud2_manual_bil_manual_billing_header</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
