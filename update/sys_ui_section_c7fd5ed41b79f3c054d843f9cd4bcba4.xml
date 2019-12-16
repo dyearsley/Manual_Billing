@@ -140,6 +140,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>adjustment_complete</element>
+            <position>10</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-12-05 15:00:34</sys_created_on>
+            <sys_id>780d6bdddba5c8506c66d211ce9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-12-05 15:00:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unfinished_adjustments</element>
+            <position>11</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2019-12-05 15:30:18</sys_created_on>
+            <sys_id>acd3ff19dbe5c8506c66d211ce9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">c7fd5ed41b79f3c054d843f9cd4bcba4</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2019-12-05 15:30:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
