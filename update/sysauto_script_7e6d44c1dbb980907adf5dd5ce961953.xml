@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Mark Records for Billing</name>
+        <run_as display_value="David Yearsley">2e6b9506ec9f24009c0a9b586f8cc2a2</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-12-16 14:20:53</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[//The end]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-12-16 14:21:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e6d44c1dbb980907adf5dd5ce961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mark Records for Billing</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sysauto_script_7e6d44c1dbb980907adf5dd5ce961953</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-12-16 14:21:19</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

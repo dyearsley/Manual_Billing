@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Manual Billing">807983e71bf7e3005ae0c91e1e4bcb1b</application>
+        <application/>
         <filter/>
         <name>Revenue Unit Approvers</name>
         <order/>
