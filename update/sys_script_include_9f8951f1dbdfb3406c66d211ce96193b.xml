@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_soud2_manual_bil.ManualBilling</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description>This will get the Rate Code Description, Revenue Unit and Rate Value</description>
         <name>ManualBilling</name>

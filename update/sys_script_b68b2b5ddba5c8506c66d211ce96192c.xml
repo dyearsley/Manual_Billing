@@ -19,8 +19,8 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_soud2_manual_bil_adjustment_details">approvalCHANGESTOapproved^ORapprovalCHANGESTOrejected^EQ<item endquery="false" field="approval" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
-            <item endquery="false" field="approval" goto="false" newquery="false" operator="CHANGESTO" or="true" value="rejected"/>
+        <filter_condition table="x_soud2_manual_bil_adjustment_details">approvalCHANGESTOapproved^ORapprovalCHANGESTOrejected^EQ<item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
+            <item display_value="Rejected" endquery="false" field="approval" goto="false" newquery="false" operator="CHANGESTO" or="true" value="rejected"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
