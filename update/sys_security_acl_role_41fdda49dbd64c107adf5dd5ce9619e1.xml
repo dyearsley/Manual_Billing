@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-10 21:23:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41fdda49dbd64c107adf5dd5ce9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_soud2_manual_bil_billing_records.x_soud2_manual_bil.user</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_security_acl display_value="x_soud2_manual_bil_billing_records">49fdda49dbd64c107adf5dd5ce9619dd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_41fdda49dbd64c107adf5dd5ce9619e1</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-10 21:23:45</sys_updated_on>
+        <sys_user_role display_value="x_soud2_manual_bil.user" name="x_soud2_manual_bil.user">a36903e71bf7e3005ae0c91e1e4bcbe2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

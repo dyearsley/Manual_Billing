@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Manual Billing" max_length="40" name="x_soud2_manual_bil_manual_billing_header" type="collection">
+    <element audit="true" extends="task" label="Manual Billing" max_length="40" name="x_soud2_manual_bil_manual_billing_header" sizeclass="4" type="collection">
         <element label="Total Adjustment" max_length="20" name="total_adjustment" read_only="true" type="currency"/>
         <element default="0" label="Unfinished Adjustments" max_length="40" name="unfinished_adjustments" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Adjustment Type" mandatory="true" max_length="40" name="u_adjustment_type" type="string">
@@ -9,7 +9,7 @@
                 <element inactive_on_update="false" label="Offset" sequence="2" value="offset"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Billing Date" max_length="40" name="u_billing_date" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing Date" max_length="40" name="u_billing_date" read_only="true" type="glide_date"/>
         <element label="Incident" max_length="32" name="u_incident" reference="incident" type="reference"/>
         <index name="index">
             <element name="u_incident"/>

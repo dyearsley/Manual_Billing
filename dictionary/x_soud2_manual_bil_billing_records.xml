@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Billing Records" max_length="40" name="x_soud2_manual_bil_billing_records" type="collection">
+        <element label="Date Billed" max_length="40" name="date_billed" type="glide_date"/>
+    </element>
+</database>
