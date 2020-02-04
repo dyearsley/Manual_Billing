@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Prevent Special Characters</description>
+        <field>short_description</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Prevent Special Characters</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Type appropriate comment here, and begin script below
+ var shortDes = g_form.getValue('short_description');
+if (/^[-\w ]+$/.test(shortDes)) { 
+  alert('okay');
+        }   // server_name is OK
+else { 
+       alert('bad');
+}   // server_name NOT OK
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-31 21:03:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a3f1663bdb22c4507adf5dd5ce961925</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Prevent Special Characters</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_script_client_a3f1663bdb22c4507adf5dd5ce961925</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-31 21:48:43</sys_updated_on>
+        <table>x_soud2_manual_bil_manual_billing_header</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_script_client_a3f1663bdb22c4507adf5dd5ce961925</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Prevent Special Characters&lt;/description&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Prevent Special Characters&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Type appropriate comment here, and begin script below
+ var shortDes = g_form.getValue('short_description');
+if (/^[-\w ]+$/.test(shortDes)) { 
+  alert('okay');
+        }   // server_name is OK
+else { 
+       alert('bad');
+}   // server_name NOT OK
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dyearsley&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-31 21:03:55&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;a3f1663bdb22c4507adf5dd5ce961925&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Prevent Special Characters&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Manual Billing" source="x_soud2_manual_bil"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Manual Billing"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a3f1663bdb22c4507adf5dd5ce961925&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dyearsley&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-31 21:48:43&lt;/sys_updated_on&gt;&lt;table&gt;x_soud2_manual_bil_manual_billing_header&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-158842322</payload_hash>
+        <record_name>Prevent Special Characters</record_name>
+        <reverted_from/>
+        <source>eb1cd9eddb6e80106c66d211ce9619bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-31 21:48:43</sys_created_on>
+        <sys_id>e70d6af7db62c4507adf5dd5ce96195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ffd93dd6b0000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-31 21:48:43</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>af0d6af7f762c45073bbfe95c7b1dd59</update_guid>
+        <update_guid_history>af0d6af7f762c45073bbfe95c7b1dd59:-158842322,2e6ce6b76f62c45079965632f4bb5c67:110655131,9f2c26b7fe62c4509a2f5724cc5b1674:-1984656478,b025e6fbc922c4504662669ce8bbcd96:484127706,77d4eebb8c22c45052d0680624dc5650:522731106,abb4aafbaa22c45094b2f50272bf26c4:-563051070,d774eafb1422c450e779acbeda4736e1:-1383153104,f544aebb4122c45036f17b32926cbcf0:920429001,f224aef77e22c45006922a96c9ea06a0:-1433450420,a8246ef7fc22c450b55a5d7cbad80551:-192566044,9de3663bd822c4501c14deab5f9b292f:-2085901085,c403ea7b4722c450c8aade85aa1ed9e6:-264547153,4bc2e67b1c22c4507a368a5c9c9b2894:2019164691</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-31 22:00:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>037c60f83d194fb4800d53d0bfcf5d90</sys_id>
+        <sys_metadata>a3f1663bdb22c4507adf5dd5ce961925</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prevent Special Characters</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="Manual Billing">a3bb92d41b79f3c054d843f9cd4bcbd1</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_script_client_a3f1663bdb22c4507adf5dd5ce961925</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a3f1663bdb22c4507adf5dd5ce961925">e70d6af7db62c4507adf5dd5ce96195a</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-31 22:00:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

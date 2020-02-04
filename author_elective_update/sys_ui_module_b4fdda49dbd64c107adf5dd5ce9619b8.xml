@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Billing Record">f4fdda49dbd64c107adf5dd5ce9619b5</application>
+        <filter/>
+        <name>Billing Records</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_soud2_manual_bil.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-10 21:23:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b4fdda49dbd64c107adf5dd5ce9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Billing Records</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_ui_module_b4fdda49dbd64c107adf5dd5ce9619b8</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-10 21:23:45</sys_updated_on>
+        <table>x_soud2_manual_bil_billing_records</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_ui_module_b4fdda49dbd64c107adf5dd5ce9619b8</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Billing Record">f4fdda49dbd64c107adf5dd5ce9619b5</application>
+        <filter/>
+        <name>Billing Records</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_soud2_manual_bil.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-10 21:23:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b4fdda49dbd64c107adf5dd5ce9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Billing Records</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_ui_module_b4fdda49dbd64c107adf5dd5ce9619b8</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-10 21:23:45</sys_updated_on>
+        <table>x_soud2_manual_bil_billing_records</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>]]></payload>
+        <payload_hash>1743216080</payload_hash>
+        <record_name>Billing Records</record_name>
+        <reverted_from/>
+        <source>2ffb15e1dbee80106c66d211ce9619b4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-24 16:08:31</sys_created_on>
+        <sys_id>bf0c59e1dbee80106c66d211ce9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fd84fe2730000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-24 16:08:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7f0c59e1fcee80100abb5f6571631bfa</update_guid>
+        <update_guid_history>7f0c59e1fcee80100abb5f6571631bfa:1743216080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-24 21:39:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0df457cf7fe24dd88a9efe85e0444710</sys_id>
+        <sys_metadata>b4fdda49dbd64c107adf5dd5ce9619b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Billing Records</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_ui_module_b4fdda49dbd64c107adf5dd5ce9619b8</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_b4fdda49dbd64c107adf5dd5ce9619b8">bf0c59e1dbee80106c66d211ce9619fa</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-24 21:39:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
