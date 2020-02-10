@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Work notes" section_id="e3de9819dbdc44107adf5dd5ce961936" sys_domain="global" table="x_soud2_manual_bil_manual_billing_header" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>description</element>
             <position>0</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-10-03 20:42:21</sys_created_on>
-            <sys_id>f81fdc19dbdc44107adf5dd5ce9619fb</sys_id>
+            <sys_created_on>2020-02-05 14:49:42</sys_created_on>
+            <sys_id>061dba19db72cc506c66d211ce961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Work notes" display_value="Work notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">e3de9819dbdc44107adf5dd5ce961936</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-10-03 20:42:21</sys_updated_on>
+            <sys_updated_on>2020-02-05 14:49:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2020-02-05 14:49:42</sys_created_on>
+            <sys_id>ce1dba19db72cc506c66d211ce961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work notes" display_value="Work notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">e3de9819dbdc44107adf5dd5ce961936</sys_ui_section>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2020-02-05 14:49:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-10-03 20:42:21</sys_created_on>
-            <sys_id>7c1fdc19dbdc44107adf5dd5ce9619fb</sys_id>
+            <sys_created_on>2020-02-05 14:49:42</sys_created_on>
+            <sys_id>461dba19db72cc506c66d211ce961987</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Work notes" display_value="Work notes" name="x_soud2_manual_bil_manual_billing_header" sys_domain="global" view="Default view">e3de9819dbdc44107adf5dd5ce961936</sys_ui_section>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-10-03 20:42:21</sys_updated_on>
+            <sys_updated_on>2020-02-05 14:49:42</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

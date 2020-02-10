@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>rate_code.revenue_unit.u_revenue_unit</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-08-22 18:00:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5c2767a7dbd7bf406c66d211ce961997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>rate_code.revenue_unit.u_revenue_unit</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5c2767a7dbd7bf406c66d211ce961997</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-08-22 18:00:28</sys_updated_on>
+        <table>x_soud2_manual_bil_manual_billing_items</table>
+        <ui_policy display_value="Read only Fields Details">a3a34bd4db3277407adf5dd5ce9619c6</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_ui_policy_action_5c2767a7dbd7bf406c66d211ce961997</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>rate_code.revenue_unit.u_revenue_unit</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-08-22 18:00:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5c2767a7dbd7bf406c66d211ce961997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>rate_code.revenue_unit.u_revenue_unit</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5c2767a7dbd7bf406c66d211ce961997</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-08-22 18:00:28</sys_updated_on>
+        <table>x_soud2_manual_bil_manual_billing_items</table>
+        <ui_policy display_value="Read only Fields Details">a3a34bd4db3277407adf5dd5ce9619c6</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>2041115632</payload_hash>
+        <record_name>rate_code.revenue_unit.u_revenue_unit</record_name>
+        <reverted_from/>
+        <source>2ffb15e1dbee80106c66d211ce9619b4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-24 16:08:31</sys_created_on>
+        <sys_id>ff0c99e1dbee80106c66d211ce96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fd84fe3790000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-24 16:08:31</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>bf0c99e127ee801078afc515982f820a</update_guid>
+        <update_guid_history>bf0c99e127ee801078afc515982f820a:2041115632</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-02-05 14:56:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>36f861415f08401c91748c0417384104</sys_id>
+        <sys_metadata>5c2767a7dbd7bf406c66d211ce961997</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rate_code.revenue_unit.u_revenue_unit</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="Read only Fields Details">a3a34bd4db3277407adf5dd5ce9619c6</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_5c2767a7dbd7bf406c66d211ce961997</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_5c2767a7dbd7bf406c66d211ce961997">ff0c99e1dbee80106c66d211ce96190a</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-02-05 14:56:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>resendBill</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>This will allow for the attached billing file to be resent.</comments>
+        <condition>current.isValidRecord() &amp;&amp; gs.hasRole('x_soud2_manual_bil.admin')</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Re-send Billing File</name>
+        <onclick/>
+        <order>1000</order>
+        <script><![CDATA[gs.eventQueue('x_soud2_manual_bil.bill_notification', current, '', '');]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-29 21:28:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>9b449497db26c0507adf5dd5ce9619fa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Re-send Billing File</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_ui_action_9b449497db26c0507adf5dd5ce9619fa</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-29 21:35:45</sys_updated_on>
+        <table>x_soud2_manual_bil_billing_records</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_ui_action_9b449497db26c0507adf5dd5ce9619fa</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;resendBill&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;This will allow for the attached billing file to be resent.&lt;/comments&gt;&lt;condition&gt;current.isValidRecord() &amp;amp;&amp;amp; gs.hasRole('x_soud2_manual_bil.admin')&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Re-send Billing File&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;1000&lt;/order&gt;&lt;script&gt;&lt;![CDATA[gs.eventQueue('x_soud2_manual_bil.bill_notification', current, '', '');]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dyearsley&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-29 21:28:05&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;9b449497db26c0507adf5dd5ce9619fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Re-send Billing File&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Manual Billing" source="x_soud2_manual_bil"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Manual Billing"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_9b449497db26c0507adf5dd5ce9619fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dyearsley&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-29 21:35:45&lt;/sys_updated_on&gt;&lt;table&gt;x_soud2_manual_bil_billing_records&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-373147230</payload_hash>
+        <record_name>Re-send Billing File</record_name>
+        <reverted_from/>
+        <source>eb1cd9eddb6e80106c66d211ce9619bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-29 21:35:46</sys_created_on>
+        <sys_id>c6e6989bdb26c0507adf5dd5ce9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ff33b47b70000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-29 21:35:46</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>8ee6989b8526c050c8165a5afa3f19b5</update_guid>
+        <update_guid_history>8ee6989b8526c050c8165a5afa3f19b5:-373147230,e985101b9726c050003c10bcac5d2be5:1216090877,4e65101b7f26c05040f89307ab77a761:-206822548,59551cd7ab26c0500c8033a1ea8b8613:1612069943,212558d7bb26c050bf8776d8a2efdca4:22203893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-02-05 15:12:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>d14716853b364a78a79a05ba1cd0c040</sys_id>
+        <sys_metadata>9b449497db26c0507adf5dd5ce9619fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Re-send Billing File</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="Billing Records">f1cdd649dbd64c107adf5dd5ce96194b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_ui_action_9b449497db26c0507adf5dd5ce9619fa</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_9b449497db26c0507adf5dd5ce9619fa">c6e6989bdb26c0507adf5dd5ce9619b6</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-02-05 15:12:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

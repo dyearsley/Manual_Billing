@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>MB_detail_info</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    // This will copy information from the Manual billing Approval record.
+    var gr = new GlideRecord('x_soud2_manual_bil_adjustment_details');
+    if (gr.get(current.document_id)) {
+        var msg ='\n<b>Adjustment Details Information: \n</b>';
+
+        msg += '_________________________________________________________________________________________\n';
+        msg += '\nBilling Adjustment: ' +  gr.number + '\n';
+        msg += 'Number: ' + gr.number + '\n';
+        msg += 'Billing: ' + gr.u_billing_adjustment.getDisplayValue() + '\n';
+		msg += 'Adjustment Type: ' + gr.u_billing_adjustment.u_adjustment_type + '\n';
+		msg += 'Description: ' + gr.u_billing_adjustment.short_description + '\n';
+		msg += 'ELCID: ' + gr.u_elcid.u_elcid + '\n';
+        msg += 'Rate Description: ' + gr.u_rate_description.getDisplayValue() + '\n';
+        msg += 'Revenue Unit: ' + gr.u_revenue_unit.getDisplayValue() + '\n';
+        msg += 'Rate Code: ' + gr.u_rate_code + '\n';		
+        msg += '\nRate Value: ' + gr.u_rate_value + '\n';
+        msg += 'Quanitity: ' + gr.u_quantity + '\n';
+        msg += '<b>\nTotal: ' + gr.u_total + '</b>\n';
+        template.print(msg);
+    } else {
+        template.print('Warning: Adjustment Detail was not found.');
+        template.print('Warning: approval record not found');
+    }
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-02-05 21:41:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7b5810addbbacc506c66d211ce961996</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>MB_detail_info</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_script_email_7b5810addbbacc506c66d211ce961996</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-02-07 15:50:56</sys_updated_on>
+    </sys_script_email>
+</record_update>

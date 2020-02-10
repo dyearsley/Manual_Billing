@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>This will send a notification and attach the billing file.</description>
+        <event_name>x_soud2_manual_bil.bill_notification</event_name>
+        <fired_by>Business Rule</fired_by>
+        <queue/>
+        <suffix>bill_notification</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-29 21:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce23d417db26c0507adf5dd5ce961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_soud2_manual_bil.bill_notification</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sysevent_register_ce23d417db26c0507adf5dd5ce961943</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-29 21:20:52</sys_updated_on>
+        <table>x_soud2_manual_bil_billing_records</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sysevent_register_ce23d417db26c0507adf5dd5ce961943</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>This will send a notification and attach the billing file.</description><event_name>x_soud2_manual_bil.bill_notification</event_name><fired_by>Business Rule</fired_by><queue/><suffix>bill_notification</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>dyearsley</sys_created_by><sys_created_on>2020-01-29 21:20:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ce23d417db26c0507adf5dd5ce961943</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_soud2_manual_bil.bill_notification</sys_name><sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope><sys_update_name>sysevent_register_ce23d417db26c0507adf5dd5ce961943</sys_update_name><sys_updated_by>dyearsley</sys_updated_by><sys_updated_on>2020-01-29 21:20:52</sys_updated_on><table>x_soud2_manual_bil_billing_records</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-1674935443</payload_hash>
+        <record_name>x_soud2_manual_bil.bill_notification</record_name>
+        <reverted_from/>
+        <source>eb1cd9eddb6e80106c66d211ce9619bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-29 21:20:52</sys_created_on>
+        <sys_id>c0831c17db26c0507adf5dd5ce9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ff32da5440000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-29 21:20:52</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>c8831c171f26c0503333ad09dea591bf</update_guid>
+        <update_guid_history>c8831c171f26c0503333ad09dea591bf:-1674935443</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-02-05 15:12:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>0b8ebf4e79b84dbabbcfc1db9bcc7161</sys_id>
+        <sys_metadata>ce23d417db26c0507adf5dd5ce961943</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_soud2_manual_bil.bill_notification</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="Billing Records">f1cdd649dbd64c107adf5dd5ce96194b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sysevent_register_ce23d417db26c0507adf5dd5ce961943</sys_update_name>
+        <sys_update_version display_value="sysevent_register_ce23d417db26c0507adf5dd5ce961943">c0831c17db26c0507adf5dd5ce9619c0</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-02-05 15:12:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

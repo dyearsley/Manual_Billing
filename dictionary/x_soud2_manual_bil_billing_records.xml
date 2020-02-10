@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Billing Records" max_length="40" name="x_soud2_manual_bil_billing_records" type="collection">
-        <element label="Date Billed" max_length="40" name="date_billed" read_only="true" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First Day of Billing" max_length="40" name="u_first_day_of_billing" read_only="true" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Last Day of Billing" max_length="40" name="u_last_day_of_billing" read_only="true" type="glide_date"/>
         <element label="Number of Records" max_length="40" name="u_number_of_records" read_only="true" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_1" type="string"/>
         <element attributes="omit_sys_original=true" label="Total Billed" max_length="20" name="u_total_billed" read_only="true" type="currency"/>
     </element>
 </database>
