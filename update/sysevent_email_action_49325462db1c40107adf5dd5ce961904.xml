@@ -14,7 +14,9 @@
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
-        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
         <digest_template/>
@@ -42,7 +44,7 @@
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>In Active Approvers</name>
+        <name>Inactive Approvers</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -61,8 +63,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>49325462db1c40107adf5dd5ce961904</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>In Active Approvers</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Inactive Approvers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
@@ -70,7 +72,7 @@
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sysevent_email_action_49325462db1c40107adf5dd5ce961904</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-10-07 17:01:18</sys_updated_on>
+        <sys_updated_on>2020-02-10 19:11:17</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

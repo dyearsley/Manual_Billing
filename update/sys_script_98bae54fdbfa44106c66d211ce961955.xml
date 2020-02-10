@@ -15,17 +15,17 @@
         <application/>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_soud2_manual_bil_manual_billing_header</collection>
+        <collection>x_soud2_manual_bil_adjustment_details</collection>
         <condition/>
         <description>This will not let the user save a record with a special charcter in the Short description</description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_soud2_manual_bil_manual_billing_header">short_descriptionISNOTEMPTY^short_descriptionVALCHANGES^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter_condition table="x_soud2_manual_bil_adjustment_details">short_descriptionISNOTEMPTY^short_descriptionVALCHANGES^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="short_description" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Short Description Validation MB</name>
+        <name>Short Description Validation ADJ</name>
         <onclick/>
         <order>100</order>
         <priority>100</priority>
@@ -49,20 +49,20 @@
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
-        <sys_created_on>2020-01-31 20:56:07</sys_created_on>
+        <sys_created_on>2020-02-10 19:19:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>d480aa77db22c4507adf5dd5ce9619f0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
-        <sys_name>Short Description Validation MB</sys_name>
+        <sys_id>98bae54fdbfa44106c66d211ce961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short Description Validation ADJ</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name>sys_script_d480aa77db22c4507adf5dd5ce9619f0</sys_update_name>
+        <sys_update_name>sys_script_98bae54fdbfa44106c66d211ce961955</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-02-10 19:18:42</sys_updated_on>
+        <sys_updated_on>2020-02-10 19:19:02</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
