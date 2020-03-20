@@ -19,7 +19,7 @@
         <sys_updated_by>dyearsley</sys_updated_by>
         <sys_updated_on>2020-02-05 14:48:37</sys_updated_on>
         <table>x_soud2_manual_bil_manual_billing_header</table>
-        <ui_policy display_value="Read only or Hidden Fields Adjustment">6ece44bfdb5bbf406c66d211ce9619bf</ui_policy>
+        <ui_policy display_value="Read only or Hidden Fields Billing">6ece44bfdb5bbf406c66d211ce9619bf</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

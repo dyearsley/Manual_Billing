@@ -3,62 +3,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d61ff507db93bb406c66d211ce961929</list_id>
+            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0ddb1dadba74410b52c5688dc9619e5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-20 21:08:26</sys_created_on>
-            <sys_id>121ff507db93bb406c66d211ce96192c</sys_id>
+            <sys_created_on>2020-03-16 19:34:18</sys_created_on>
+            <sys_id>15ddb1dadba74410b52c5688dc9619e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-20 21:08:26</sys_updated_on>
+            <sys_updated_on>2020-03-16 19:34:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>revenue_unit</element>
-            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d61ff507db93bb406c66d211ce961929</list_id>
+            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0ddb1dadba74410b52c5688dc9619e5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-20 21:08:26</sys_created_on>
-            <sys_id>961ff507db93bb406c66d211ce96192c</sys_id>
+            <sys_created_on>2020-03-16 19:34:18</sys_created_on>
+            <sys_id>d9ddb1dadba74410b52c5688dc9619e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-20 21:08:26</sys_updated_on>
+            <sys_updated_on>2020-03-16 19:34:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d61ff507db93bb406c66d211ce961929</list_id>
+            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0ddb1dadba74410b52c5688dc9619e5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-20 21:08:26</sys_created_on>
-            <sys_id>1a1ff507db93bb406c66d211ce96192c</sys_id>
+            <sys_created_on>2020-03-16 19:34:18</sys_created_on>
+            <sys_id>5dddb1dadba74410b52c5688dc9619e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-20 21:08:26</sys_updated_on>
+            <sys_updated_on>2020-03-16 19:34:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>approver</element>
-            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d61ff507db93bb406c66d211ce961929</list_id>
+            <element>u_approvers</element>
+            <list_id display_value="x_soud2_manual_bil_revenue_unit_approvers" element="NULL" name="x_soud2_manual_bil_revenue_unit_approvers" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0ddb1dadba74410b52c5688dc9619e5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-20 21:08:26</sys_created_on>
-            <sys_id>9a1ff507db93bb406c66d211ce96192c</sys_id>
+            <sys_created_on>2020-03-16 19:34:18</sys_created_on>
+            <sys_id>ddddb1dadba74410b52c5688dc9619e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-20 21:08:26</sys_updated_on>
+            <sys_updated_on>2020-03-16 19:34:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -72,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2019-08-20 21:08:26</sys_created_on>
+            <sys_created_on>2020-03-16 19:34:17</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>d61ff507db93bb406c66d211ce961929</sys_id>
+            <sys_id>f0ddb1dadba74410b52c5688dc9619e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_soud2_manual_bil_revenue_unit_approvers</sys_name>
             <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -84,7 +84,7 @@
             <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
             <sys_update_name>sys_ui_list_x_soud2_manual_bil_revenue_unit_approvers_null</sys_update_name>
             <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2019-08-20 21:08:26</sys_updated_on>
+            <sys_updated_on>2020-03-16 19:34:17</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

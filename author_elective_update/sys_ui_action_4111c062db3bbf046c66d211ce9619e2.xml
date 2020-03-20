@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments>This will trigger the approval process.</comments>
+        <condition>current.state==55 &amp;&amp; current.approval=='rejected'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>Only click this when the Manual billing is complete and ready to bill</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Resubmit Adjustment</name>
+        <onclick/>
+        <order>1005</order>
+        <script><![CDATA[current.approval='requested';
+current.state=2;
+action.setRedirectURL(current);
+current.update();]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-09-12 19:12:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4111c062db3bbf046c66d211ce9619e2</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Resubmit Adjustment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_ui_action_4111c062db3bbf046c66d211ce9619e2</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2019-10-01 17:23:27</sys_updated_on>
+        <table>x_soud2_manual_bil_adjustment_details</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_ui_action_4111c062db3bbf046c66d211ce9619e2</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;
+    &lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;
+        &lt;action_name/&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;client&gt;false&lt;/client&gt;
+        &lt;client_script_v2/&gt;
+        &lt;comments&gt;This will trigger the approval process.&lt;/comments&gt;
+        &lt;condition&gt;current.state==55 &amp;amp;&amp;amp; current.approval=='rejected'&lt;/condition&gt;
+        &lt;form_action&gt;true&lt;/form_action&gt;
+        &lt;form_button&gt;true&lt;/form_button&gt;
+        &lt;form_button_v2&gt;false&lt;/form_button_v2&gt;
+        &lt;form_context_menu&gt;true&lt;/form_context_menu&gt;
+        &lt;form_link&gt;true&lt;/form_link&gt;
+        &lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;
+        &lt;form_style/&gt;
+        &lt;hint&gt;Only click this when the Manual billing is complete and ready to bill&lt;/hint&gt;
+        &lt;isolate_script&gt;false&lt;/isolate_script&gt;
+        &lt;list_action&gt;false&lt;/list_action&gt;
+        &lt;list_banner_button&gt;false&lt;/list_banner_button&gt;
+        &lt;list_button&gt;false&lt;/list_button&gt;
+        &lt;list_choice&gt;false&lt;/list_choice&gt;
+        &lt;list_context_menu&gt;false&lt;/list_context_menu&gt;
+        &lt;list_link&gt;false&lt;/list_link&gt;
+        &lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;
+        &lt;list_style/&gt;
+        &lt;name&gt;Resubmit Adjustment&lt;/name&gt;
+        &lt;onclick/&gt;
+        &lt;order&gt;1005&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[current.approval='requested';
+current.state=2;
+action.setRedirectURL(current);
+current.update();]]&gt;&lt;/script&gt;
+        &lt;show_insert&gt;true&lt;/show_insert&gt;
+        &lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;
+        &lt;show_query&gt;false&lt;/show_query&gt;
+        &lt;show_update&gt;true&lt;/show_update&gt;
+        &lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;dyearsley&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-09-12 19:12:16&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;4111c062db3bbf046c66d211ce9619e2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Resubmit Adjustment&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Manual Billing" source="x_soud2_manual_bil"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="Manual Billing"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ui_action_4111c062db3bbf046c66d211ce9619e2&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;dyearsley&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-10-01 17:23:27&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_soud2_manual_bil_adjustment_details&lt;/table&gt;
+        &lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;
+        &lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;
+    &lt;/sys_ui_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1736440783</payload_hash>
+        <record_name>Resubmit Adjustment</record_name>
+        <reverted_from/>
+        <source>2ffb15e1dbee80106c66d211ce9619b4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-01-24 16:08:30</sys_created_on>
+        <sys_id>570c59e1dbee80106c66d211ce961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fd84fdd120000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-01-24 16:08:30</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>170c59e15aee801027d3631ce6a0b762</update_guid>
+        <update_guid_history>170c59e15aee801027d3631ce6a0b762:-1736440783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-03-19 18:43:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>47b03c78ae14424e9c0706b00dde48f1</sys_id>
+        <sys_metadata>4111c062db3bbf046c66d211ce9619e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resubmit Adjustment</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="Adjustment Details">8d770848db2333806c66d211ce961972</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_ui_action_4111c062db3bbf046c66d211ce9619e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_4111c062db3bbf046c66d211ce9619e2">570c59e1dbee80106c66d211ce961962</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-03-19 18:43:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

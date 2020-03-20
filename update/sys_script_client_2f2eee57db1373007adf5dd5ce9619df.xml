@@ -11,48 +11,47 @@
         <name>Get Rate Information</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-	if (isLoading || newValue === '') {
-		return;
-	}
-	//Use Ajax to get the Agency
-	var rateRot = g_form.getValue('u_rate_description');
-	var ga = new GlideAjax('ManualBilling');
-	ga.addParam('sysparm_name','getRateInformation');
-	ga.addParam('sysparm_revenue',rateRot);
-	ga.getXMLAnswer(_getAnswer);
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Use Ajax to get the Agency
+    var rateRot = g_form.getValue('u_rate_description');
+    var ga = new GlideAjax('ManualBilling');
+    ga.addParam('sysparm_name', 'getRateInformation');
+    ga.addParam('sysparm_revenue', rateRot);
+    ga.getXMLAnswer(_getAnswer);
 }
 
-function _getAnswer(ans) {	
-	if (ans == 'failed') {
-		alert('The lookup failed. Please create an incident.');
-	} else {
-		var ansList = ans.split(',');
-		g_form.setValue('u_revenue_unit',ansList[0],ansList[1]);
-		g_form.setValue('u_rate_code',ansList[2]);
-		g_form.setValue('u_rate_value',parseFloat(ansList[3]).toFixed(2));		
-		
-		var qty = g_form.getValue('u_quantity');
-		
-		if (!isNaN(qty) && qty != '') {			
-			qty = parseFloat(qty.replace(/[^0-9.+-]/g,''));
-			var amount = g_form.getValue('u_rate_value');
-			amount = parseFloat(amount.replace('(','-').replace(/[^0-9.+-]/g));			
-			var total = parseFloat(amount) * parseFloat(qty);
-			g_form.setValue('u_total',parseFloat(total).toFixed(2));
-		} else {
-			g_form.setValue('u_total',parseFloat('0.00').toFixed(2));
-		}
-	}	
-}
+function _getAnswer(ans) {
+    if (ans == 'failed') {
+        alert('The lookup failed. Please create an incident.');
+    } else {
+        var ansList = ans.split(',');
+        g_form.setValue('u_revenue_unit', ansList[0], ansList[1]);
+        g_form.setValue('u_rate_code', ansList[2]);
+        g_form.setValue('u_rate_value', parseFloat(ansList[3]).toFixed(2));        
+        g_form.setValue('u_ru_approver', ansList[4]);
 
-]]></script>
+        var qty = g_form.getValue('u_quantity');
+
+        if (!isNaN(qty) && qty != '') {
+            qty = parseFloat(qty.replace(/[^0-9.+-]/g, ''));
+            var amount = g_form.getValue('u_rate_value');
+            amount = parseFloat(amount.replace('(', '-').replace(/[^0-9.+-]/g));
+            var total = parseFloat(amount) * parseFloat(qty);
+            g_form.setValue('u_total', parseFloat(total).toFixed(2));
+        } else {
+            g_form.setValue('u_total', parseFloat('0.00').toFixed(2));
+        }
+    }
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2019-08-21 19:12:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>2f2eee57db1373007adf5dd5ce9619df</sys_id>
-        <sys_mod_count>74</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_name>Get Rate Information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -61,7 +60,7 @@ function _getAnswer(ans) {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_client_2f2eee57db1373007adf5dd5ce9619df</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2019-11-21 19:46:24</sys_updated_on>
+        <sys_updated_on>2020-03-16 20:36:45</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_ru_approver</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Check Revenue Code Approvers</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Check if Null
+	alert(newValue);
+    if (newValue.isNil || newValue == 'undefined') {
+        alert('This record does not have any approvers. You will not be allowed to bill this record until it has an approver.');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-09-18 19:43:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>314d7258db0c88107adf5dd5ce96198d</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Check Revenue Code Approvers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_script_client_314d7258db0c88107adf5dd5ce96198d</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-03-16 19:55:15</sys_updated_on>
+        <table>x_soud2_manual_bil_adjustment_details</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_script_client_314d7258db0c88107adf5dd5ce96198d</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_ru_approver&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Check Revenue Code Approvers&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Check if Null
+	alert(newValue);
+    if (newValue.isNil || newValue == 'undefined') {
+        alert('This record does not have any approvers. You will not be allowed to bill this record until it has an approver.');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dyearsley&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-18 19:43:11&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;314d7258db0c88107adf5dd5ce96198d&lt;/sys_id&gt;&lt;sys_mod_count&gt;43&lt;/sys_mod_count&gt;&lt;sys_name&gt;Check Revenue Code Approvers&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Manual Billing" source="x_soud2_manual_bil"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Manual Billing"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_314d7258db0c88107adf5dd5ce96198d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dyearsley&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-16 19:55:15&lt;/sys_updated_on&gt;&lt;table&gt;x_soud2_manual_bil_adjustment_details&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>972940187</payload_hash>
+        <record_name>Check Revenue Code Approvers</record_name>
+        <reverted_from/>
+        <source>eb1cd9eddb6e80106c66d211ce9619bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-03-16 19:55:15</sys_created_on>
+        <sys_id>4ca206d2dbe74410b52c5688dc961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170e4ea27a10000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-03-16 19:55:15</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>04a206d293e744105c71bd86018c3d67</update_guid>
+        <update_guid_history>04a206d293e744105c71bd86018c3d67:972940187,b6d10292ade7441046d62d30f52bcc91:-1113778744,5011c612d6e7441059b8384eab93899f:1441678015,b5c0021298e744109bad74a564793b15:-1439950370,9ab0cede0ca74410497648a5f20651ba:-1433979687,6ca006de34a744109a30d0d02757760f:-1297731592,7b70c2dee1a7441006e6e246d5c812b6:-790162998,5c5082dedfa74410b5b16c84ac0223d8:-881597330,fe300e9e45a7441018da1cbb2b987baa:-361941381,cd20829ec9a74410cdac1733709dd4b4:-881597330,ab4f715e57a74410f85366eda9863651:-226534083,19ef6a1d626f8cd0fd2ad6268bd67643:-2104311407,3dc186d0faa7889088a9b77ceab2270a:338046907,ed5d391c126788900ad5790f04278e65:-950414843,21a63d50966788901bb596330f18fd3b:1502604766,d0967110676788901510c52085ba3af7:-900782466,ac86395023678890d962b3c15423bc18:-1539707474,e626fd10b367889031f96618afa2ec67:-1293402581,95e539109667889007aa4b606e695f2a:-90170724,fea57110c667889069edf8675ac9858e:-1070570672,3d513158622788900ebd9453ebdba903:1744856000,69e039144927889040edd76b91823248:978447407,59407d540d278890c1bf2182b0b94f99:652309106,d5fe291470278890f1bbe28d3286d938:-908745665,84bd69906627889079e7ffee742d8c2b:-1174245887,12ab2594dee388907ebff53e498e51e0:-1020421962,848465141ce38890d17d35c5687cd9a6:-1227168116,7e0c19e17dee801031d90aec80a2ce72:-2116785349</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-03-16 20:13:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0df0a2fbf0944fe0829da4a467d82840</sys_id>
+        <sys_metadata>314d7258db0c88107adf5dd5ce96198d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Revenue Code Approvers</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="Adjustment Details">8d770848db2333806c66d211ce961972</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_script_client_314d7258db0c88107adf5dd5ce96198d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_314d7258db0c88107adf5dd5ce96198d">4ca206d2dbe74410b52c5688dc961967</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-03-16 20:13:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
