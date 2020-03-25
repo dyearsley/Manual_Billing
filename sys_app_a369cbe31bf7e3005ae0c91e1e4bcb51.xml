@@ -18,21 +18,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_soud2_manual_bil</source>
-        <store_correlation_id>REPOAPP0000205390</store_correlation_id>
+        <store_correlation_id>REPOAPP0000206055</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2019-03-01 16:10:25</sys_created_on>
         <sys_id>a369cbe31bf7e3005ae0c91e1e4bcb51</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-03-23 17:29:02</sys_updated_on>
+        <sys_updated_on>2020-03-25 20:40:53</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_soud2_manual_bil.user" name="x_soud2_manual_bil.user">a36903e71bf7e3005ae0c91e1e4bcbe2</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.2.4</version>
+        <version>1.2.5</version>
     </sys_app>
 </record_update>

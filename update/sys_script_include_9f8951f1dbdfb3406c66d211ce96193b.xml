@@ -13,22 +13,15 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     //type: 'ManualBilling',
     checkAdjustmentRecord: function(sysid) {
         var ans = true;
-        var qry = 'u_ru_approver.u_approversISEMPTY^u_billing_adjustment=' + sysid;
-        var gr = new GlideRecord('x_soud2_manual_bil_adjustment_details');
+        //var qry = 'u_billing_adjustment=f0854749db370850b52c5688dc96199b^u_ru_approver.u_approversISEMPTY^active=true'
+        var qry = 'u_billing_adjustment=' + sysid + '^active=true^u_ru_approver.u_approversISEMPTY';
+        var gr = new GlideRecord('x_soud2_manual_bil_adjustment_details');		
         gr.addEncodedQuery(qry);
         gr.setLimit(1);
-        gr.query();
+        gr.query();		
+		
         if (gr.hasNext()) {
             ans = false;
-        } else {
-            qry = 'u_billing_adjustment=' + sysid;
-            var gr2 = new GlideRecord('x_soud2_manual_bil_adjustment_details');
-            gr2.addEncodedQuery(qry);
-            gr2.query();
-
-            if (!gr2.hasNext()) {
-                ans = false;
-            }
         }
         return ans;
     },
@@ -74,7 +67,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-08-16 21:12:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
-        <sys_mod_count>173</sys_mod_count>
+        <sys_mod_count>184</sys_mod_count>
         <sys_name>ManualBilling</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy>read</sys_policy>
@@ -82,6 +75,6 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-03-19 20:18:10</sys_updated_on>
+        <sys_updated_on>2020-03-25 20:10:01</sys_updated_on>
     </sys_script_include>
 </record_update>
