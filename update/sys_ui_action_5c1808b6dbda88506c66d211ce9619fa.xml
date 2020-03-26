@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>sysverb_insert_and_stay</action_name>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
@@ -49,7 +49,7 @@ function doInsertAndStay() {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5c1808b6dbda88506c66d211ce9619fa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Insert and Stay</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -58,7 +58,7 @@ function doInsertAndStay() {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_ui_action_5c1808b6dbda88506c66d211ce9619fa</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-01-15 21:08:48</sys_updated_on>
+        <sys_updated_on>2020-03-26 16:12:54</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
