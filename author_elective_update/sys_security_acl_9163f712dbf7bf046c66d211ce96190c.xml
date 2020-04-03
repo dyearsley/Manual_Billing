@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow list_edit for approval in x_soud2_manual_bil_manual_billing_header, for users with role admin.</description>
+        <name>x_soud2_manual_bil_manual_billing_header.approval</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2019-09-12 18:13:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9163f712dbf7bf046c66d211ce96190c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_soud2_manual_bil_manual_billing_header.approval</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_security_acl_9163f712dbf7bf046c66d211ce96190c</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-04-03 17:03:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_security_acl_9163f712dbf7bf046c66d211ce96190c</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow list_edit for approval in x_soud2_manual_bil_manual_billing_header, for users with role admin.</description><name>x_soud2_manual_bil_manual_billing_header.approval</name><operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>dyearsley</sys_created_by><sys_created_on>2019-09-12 18:13:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9163f712dbf7bf046c66d211ce96190c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_soud2_manual_bil_manual_billing_header.approval</sys_name><sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope><sys_update_name>sys_security_acl_9163f712dbf7bf046c66d211ce96190c</sys_update_name><sys_updated_by>dyearsley</sys_updated_by><sys_updated_on>2020-04-03 17:03:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>931843964</payload_hash>
+        <record_name>x_soud2_manual_bil_manual_billing_header.approval</record_name>
+        <reverted_from/>
+        <source>eb1cd9eddb6e80106c66d211ce9619bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-04-03 17:03:45</sys_created_on>
+        <sys_id>1bf70ac8db00dc906c66d211ce961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17140ff9c4c0000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-04-03 17:03:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>dff70ac8f600dc906d05378ab0853d83</update_guid>
+        <update_guid_history>dff70ac8f600dc906d05378ab0853d83:931843964,e107ce482e00dc9078be6615832eca17:864669216,8b0c19e18cee8010861811d1ef950ae4:-1830820253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-04-03 17:05:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>009e9e2410f8489e861a5dc44e66b601</sys_id>
+        <sys_metadata>9163f712dbf7bf046c66d211ce96190c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_soud2_manual_bil_manual_billing_header.approval</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="x_soud2_manual_bil_manual_billing_header">c7fb15e1dbee80106c66d211ce96190c</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9163f712dbf7bf046c66d211ce96190c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9163f712dbf7bf046c66d211ce96190c">1bf70ac8db00dc906c66d211ce961984</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-04-03 17:05:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
