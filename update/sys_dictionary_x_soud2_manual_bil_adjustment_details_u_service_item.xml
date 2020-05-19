@@ -49,16 +49,16 @@
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2020-01-29 22:09:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c38e5497db66c0507adf5dd5ce96191a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>983a58fddbc09c90dbaaf7441d96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Item</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_dictionary_x_soud2_manual_bil_adjustment_details_u_service_item</sys_update_name>
-        <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-01-29 22:09:09</sys_updated_on>
+        <sys_updated_by>beth</sys_updated_by>
+        <sys_updated_on>2020-04-08 19:33:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

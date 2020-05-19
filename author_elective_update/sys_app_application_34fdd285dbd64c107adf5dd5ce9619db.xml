@@ -55,7 +55,7 @@
         <update_guid_history>280862e1052ac010b6650cecb545c0a7:-1451905146,5e0cd5e155ee8010c18b32291542ca58:-203404572</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2020-01-24 14:42:32">a4886225db2ac0106c66d211ce961985</sys_audit_delete>
+        <sys_audit_delete display_value="">a4886225db2ac0106c66d211ce961985</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2020-01-24 21:42:32</sys_created_on>

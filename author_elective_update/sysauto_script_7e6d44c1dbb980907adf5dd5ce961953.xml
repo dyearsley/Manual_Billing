@@ -75,7 +75,7 @@
         <reverted_from/>
         <source>2ffb15e1dbee80106c66d211ce9619b4</source>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2020-01-24 16:08:33</sys_created_on>
         <sys_id>101c99e1dbee80106c66d211ce9619a8</sys_id>
