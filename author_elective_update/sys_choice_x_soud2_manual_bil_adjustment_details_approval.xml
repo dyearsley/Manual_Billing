@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="approval" table="x_soud2_manual_bil_adjustment_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <name>x_soud2_manual_bil_adjustment_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2020-03-19 14:18:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>724ad8b1db049c90dbaaf7441d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>approval</sys_name>
+            <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+            <sys_update_name>sys_choice_x_soud2_manual_bil_adjustment_details_approval</sys_update_name>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2020-03-19 14:18:44</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>approval</element>
@@ -72,23 +90,5 @@
             <sys_updated_on>2020-03-19 14:44:10</sys_updated_on>
             <value>rejected</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>approval</element>
-            <name>x_soud2_manual_bil_adjustment_details</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>dyearsley</sys_created_by>
-            <sys_created_on>2020-03-19 14:18:44</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>724ad8b1db049c90dbaaf7441d961927</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>approval</sys_name>
-            <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-            <sys_update_name>sys_choice_x_soud2_manual_bil_adjustment_details_approval</sys_update_name>
-            <sys_updated_by>dyearsley</sys_updated_by>
-            <sys_updated_on>2020-03-19 14:18:44</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

@@ -54,7 +54,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             grRU.query();
 
             if (grRU.next()) {
-                revenueString = revenueString + ',' + grRU.sys_id.toString();
+                revenueString = revenueString + ',' + grRU.getValue('sys_id') + ',' + grRU.getDisplayValue();
             }
             return revenueString;
         }
@@ -67,14 +67,14 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-08-16 21:12:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
-        <sys_mod_count>184</sys_mod_count>
+        <sys_mod_count>185</sys_mod_count>
         <sys_name>ManualBilling</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
-        <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-03-25 20:10:01</sys_updated_on>
+        <sys_updated_by>ryant</sys_updated_by>
+        <sys_updated_on>2020-10-13 22:43:08</sys_updated_on>
     </sys_script_include>
 </record_update>

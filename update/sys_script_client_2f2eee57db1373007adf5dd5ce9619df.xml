@@ -3,7 +3,7 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>This will fill in the Revenue , Rate Code. Rate Value when a Rate Description is selected.</description>
+        <description>This will fill in the Revenue , Rate Code, Rate Value when a Rate Description is selected.</description>
         <field>u_rate_description</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
@@ -14,7 +14,7 @@
     if (isLoading || newValue === '') {
         return;
     }
-    //Use Ajax to get the Agency
+	//Use Ajax to get the Agency
     var rateRot = g_form.getValue('u_rate_description');
     var ga = new GlideAjax('ManualBilling');
     ga.addParam('sysparm_name', 'getRateInformation');
@@ -22,27 +22,40 @@
     ga.getXMLAnswer(_getAnswer);
 }
 
+// Ryan: Updated as resolution to INC1370075
+
 function _getAnswer(ans) {
+	
     if (ans == 'failed') {
-        alert('The lookup failed. Please create an incident.');
+        alert('The Rate Code lookup failed. Please create an incident.');
     } else {
         var ansList = ans.split(',');
+		// Grab the values from the returned payload, which looks like this working example: 8fa965c687660100f3c666031a434d7d,110-2417,TCCMSSP,18.38,2fabd871db849c90dbaaf7441d96192c
+		// By index: [0] u_revenue_unit sys_id = 8fa965c687660100f3c666031a434d7d, [1] u_revenue_unit display/readable value = 110-2417
         g_form.setValue('u_revenue_unit', ansList[0], ansList[1]);
+		// By index: [2] u_rate_code = TCCMSSP
         g_form.setValue('u_rate_code', ansList[2]);
-        g_form.setValue('u_rate_value', parseFloat(ansList[3]).toFixed(2));        
-        g_form.setValue('u_ru_approver', ansList[4]);
-
+		// By index: [4] u_ru_approver sys_id = 2fabd871db849c90dbaaf7441d96192c, [5] u_ru_approver display/readable value = 110-2417
+		g_form.setValue('u_ru_approver', ansList[4], ansList[5]);
+		
+		// The u_rate_value field is a currency value, meaning it needs special handling to account for the formatting
+		var rate = g_form.getValue('u_rate_value');
+        // Extract the currency type (i.e. USD) from the rate field, which has a currency format of USD;0.00
+		var currencyType = rate.split(';')[0];
+		// By index: u_rate_value = 18.38
+		var amount = ansList[3];
+		// Format the value so the currency field accepts it
+		var formattedCurrencyRate = currencyType + ';' + parseFloat(amount).toFixed(2);
+		g_form.setValue('u_rate_value', formattedCurrencyRate);        
+		// Do the math to calculate a new accurate total
         var qty = g_form.getValue('u_quantity');
+		// Clean out any formatting separators
+		qty = qty.replace(/,/g,'');
+		var total = (!isNaN(qty) && qty != '') ? (parseFloat(amount) * parseFloat(qty)) : 0;
+		// This field is also currency so handle it like a super special snowflake too
+		var formattedCurrencyTotal = currencyType + ';' + parseFloat(total).toFixed(2);
+		g_form.setValue('u_total', formattedCurrencyTotal);
 
-        if (!isNaN(qty) && qty != '') {
-            qty = parseFloat(qty.replace(/[^0-9.+-]/g, ''));
-            var amount = g_form.getValue('u_rate_value');
-            amount = parseFloat(amount.replace('(', '-').replace(/[^0-9.+-]/g));
-            var total = parseFloat(amount) * parseFloat(qty);
-            g_form.setValue('u_total', parseFloat(total).toFixed(2));
-        } else {
-            g_form.setValue('u_total', parseFloat('0.00').toFixed(2));
-        }
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -51,7 +64,7 @@ function _getAnswer(ans) {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>2f2eee57db1373007adf5dd5ce9619df</sys_id>
-        <sys_mod_count>98</sys_mod_count>
+        <sys_mod_count>115</sys_mod_count>
         <sys_name>Get Rate Information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -60,7 +73,7 @@ function _getAnswer(ans) {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_client_2f2eee57db1373007adf5dd5ce9619df</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-03-16 20:36:45</sys_updated_on>
+        <sys_updated_on>2020-11-04 16:05:00</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
