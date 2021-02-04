@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Adjustment Details Transform Map">73aa621edb742c90b52c5688dc9619b0</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>kdefa</sys_created_by>
+        <sys_created_on>2020-12-02 23:14:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8c4576d2dbf42c90b52c5688dc96196a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_transform_script_8c4576d2dbf42c90b52c5688dc96196a</sys_update_name>
+        <sys_updated_by>kdefa</sys_updated_by>
+        <sys_updated_on>2020-12-03 14:45:34</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_transform_script_8c4576d2dbf42c90b52c5688dc96196a</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Adjustment Details Transform Map"&gt;73aa621edb742c90b52c5688dc9619b0&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kdefa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-02 23:14:22&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;8c4576d2dbf42c90b52c5688dc96196a&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="Manual Billing" source="x_soud2_manual_bil"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Manual Billing"&gt;a369cbe31bf7e3005ae0c91e1e4bcb51&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_8c4576d2dbf42c90b52c5688dc96196a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kdefa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-03 14:45:34&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1388432658</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>918b92d2db342c90b52c5688dc9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kdefa</sys_created_by>
+        <sys_created_on>2020-12-03 14:45:35</sys_created_on>
+        <sys_id>5e4c466adb30ac90b52c5688dc9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1762910cb070000001</sys_recorded_at>
+        <sys_updated_by>kdefa</sys_updated_by>
+        <sys_updated_on>2020-12-03 14:45:35</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>d24c466aac30ac90713f81ee750a56c2</update_guid>
+        <update_guid_history>d24c466aac30ac90713f81ee750a56c2:-1388432658,105b8756b6782c904d952643c232f1da:1995760840,973a47160e782c90650c3e06ff4d72cb:1827401792,24298b1607782c904ff9a7ecc9af1898:-253889553,eb584f9270782c90631e238527a0b459:1592226649,90b70fde1a382c907ff29900d4a90b96:-1904266703,f9b54b5e22382c90432406a58c6b1650:-2114137537,75f3435e97382c9029c75b2439d16c76:1797782571,14e8365a82f42c90c909e33c442e890b:-1310690174,6527369625f42c90fa38f6312c45a8d5:-654076279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kdefa</sys_created_by>
+        <sys_created_on>2020-12-03 14:46:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>40cd5a855ea84cc89e96814c247ea271</sys_id>
+        <sys_metadata>8c4576d2dbf42c90b52c5688dc96196a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="Adjustment Details Transform Map">73aa621edb742c90b52c5688dc9619b0</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_transform_script_8c4576d2dbf42c90b52c5688dc96196a</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_8c4576d2dbf42c90b52c5688dc96196a">5e4c466adb30ac90b52c5688dc9619c2</sys_update_version>
+        <sys_updated_by>kdefa</sys_updated_by>
+        <sys_updated_on>2020-12-03 14:46:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -34,12 +34,12 @@
         <sys_created_by>dyearsley</sys_created_by>
         <sys_created_on>2020-03-25 20:43:35</sys_created_on>
         <sys_id>37f32019dbbf0850b52c5688dc961941</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2020-03-26 16:49:40</sys_updated_on>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>kdefa</sys_updated_by>
+        <sys_updated_on>2020-12-02 21:24:31</sys_updated_on>
         <table>x_soud2_manual_bil_manual_billing_header</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Billing Adjustment Process">e68e3db9db7b3b046c66d211ce96191a</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

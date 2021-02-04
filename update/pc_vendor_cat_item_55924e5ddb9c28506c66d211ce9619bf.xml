@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pc_vendor_cat_item">
+    <pc_vendor_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <features/>
+        <list_price>43.79</list_price>
+        <model display_value="Other AT - JIRA SOFTWARE STANDARD - Software">60eb38bedbc42410c5385e65ce96191a</model>
+        <name>Other AT - JIRA SOFTWARE STANDARD - Software (UNIVERSITY OF CINCINNATI RESEARCH INSTITUTE - KTH9600B</name>
+        <out_of_stock>false</out_of_stock>
+        <picture/>
+        <price>43.79</price>
+        <product_catalog_item display_value="Enroll mobile device into Utah State DTS - WESTERN REGION REVENUE">a880ac1bdb88a05052505434ce96193b</product_catalog_item>
+        <product_id>KTH9600B/4G</product_id>
+        <short_description>Kingston - Memory - 4 GB - DIMM 240-pin - DDR3 - 1333 MHz / PC3-10600 -unbuffered - non-ECC - for HP</short_description>
+        <specs/>
+        <sys_class_name>pc_vendor_cat_item</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-11-04 20:19:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>55924e5ddb9c28506c66d211ce9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other AT - JIRA SOFTWARE STANDARD - Software (UNIVERSITY OF CINCINNATI RESEARCH INSTITUTE - KTH9600B</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>pc_vendor_cat_item_55924e5ddb9c28506c66d211ce9619bf</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-11-04 20:19:54</sys_updated_on>
+        <u_contract/>
+        <u_contract_finet/>
+        <u_item_type>Hardware</u_item_type>
+        <u_object_code display_value="5110-2016">e14d009b4f9f7540b58d09d14210c7a3</u_object_code>
+        <u_populate_data_from_ritm display_value="RITM0010011">aaa262a71dbd4100f3c6d84dda255125</u_populate_data_from_ritm>
+        <u_work_note_listing/>
+        <u_work_notes/>
+        <upc/>
+        <vendor display_value="UNIVERSITY OF CINCINNATI RESEARCH INSTITUTE">cd89f86f4f688fc09e0723d18110c75a</vendor>
+    </pc_vendor_cat_item>
+</record_update>
