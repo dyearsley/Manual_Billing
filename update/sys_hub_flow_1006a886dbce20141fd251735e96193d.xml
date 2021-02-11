@@ -19,6 +19,7 @@
         <outputs/>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -1128,12 +1129,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0a66a8c6dbce20141fd251735e9619fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1006a886dbce20141fd251735e96193d_current_en</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
         <sys_updated_on>2021-02-01 21:22:00</sys_updated_on>
         <url/>
@@ -1153,12 +1154,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1666e8c6dbce20141fd251735e961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1006a886dbce20141fd251735e96193d_table_name_en</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
         <sys_updated_on>2021-02-01 21:22:01</sys_updated_on>
         <url/>
@@ -1178,12 +1179,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d266e8c6dbce20141fd251735e961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1006a886dbce20141fd251735e96193d_changed_fields_en</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
         <sys_updated_on>2021-02-01 21:22:01</sys_updated_on>
         <url/>

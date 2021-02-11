@@ -53,7 +53,7 @@
         <reverted_from/>
         <source>918b92d2db342c90b52c5688dc9619b1</source>
         <source_table>sys_update_set</source_table>
-        <state>previous</state>
+        <state>current</state>
         <sys_created_by>kdefa</sys_created_by>
         <sys_created_on>2020-12-02 22:36:51</sys_created_on>
         <sys_id>778e6296dbb42c90b52c5688dc961989</sys_id>

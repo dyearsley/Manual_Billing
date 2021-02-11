@@ -54,7 +54,7 @@
             <sys_domain>global</sys_domain>
             <sys_id>113f9059dbdc44107adf5dd5ce9619e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Summary</sys_name>
+            <sys_name>x_soud2_manual_bil_manual_billing_header</sys_name>
             <sys_overrides/>
             <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
             <sys_policy/>
