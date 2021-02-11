@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2020-04-03 17:00:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2e37ce48db00dc906c66d211ce96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_soud2_manual_bil_billing_records.itil</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_security_acl display_value="x_soud2_manual_bil_billing_records">49fdda49dbd64c107adf5dd5ce9619dd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2e37ce48db00dc906c66d211ce96191a</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2020-04-03 17:00:35</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">42c23e13910220009c0accef55f879e9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_security_acl_role_2e37ce48db00dc906c66d211ce96191a</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>dyearsley</sys_created_by><sys_created_on>2020-04-03 17:00:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2e37ce48db00dc906c66d211ce96191a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_soud2_manual_bil_billing_records.itil</sys_name><sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope><sys_security_acl display_value="x_soud2_manual_bil_billing_records">49fdda49dbd64c107adf5dd5ce9619dd</sys_security_acl><sys_update_name>sys_security_acl_role_2e37ce48db00dc906c66d211ce96191a</sys_update_name><sys_updated_by>dyearsley</sys_updated_by><sys_updated_on>2020-04-03 17:00:35</sys_updated_on><sys_user_role display_value="itil" name="itil">42c23e13910220009c0accef55f879e9</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1636255952</payload_hash>
+        <record_name>x_soud2_manual_bil_billing_records.itil</record_name>
+        <reverted_from/>
+        <source>75593c18db5aac10b52c5688dc96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-02-08 22:32:37</sys_created_on>
+        <sys_id>b4b9b858db5aac10b52c5688dc9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17783c674150000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-02-08 22:32:37</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>74b9b8586c5aac10a6c44768b5529dc6</update_guid>
+        <update_guid_history>63883494d15aac108579ff9e9f091ca3:-997981742,bce77490225aac10a41b3b3588a732df:0,138770103d5aac105957a28dcd6ec6fc:-997981742,40e168936802e0508dc1d9429c5d2056:1636255952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-11 15:05:44">20509819db5a68901fd251735e9619f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-02-11 22:05:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3e79f2b04da9412cb6af7429b385a2a1</sys_id>
+        <sys_metadata>2e37ce48db00dc906c66d211ce96191a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_soud2_manual_bil_billing_records.itil</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent display_value="x_soud2_manual_bil_billing_records">49fdda49dbd64c107adf5dd5ce9619dd</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_2e37ce48db00dc906c66d211ce96191a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_2e37ce48db00dc906c66d211ce96191a">b4b9b858db5aac10b52c5688dc9619c6</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-02-11 22:05:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
