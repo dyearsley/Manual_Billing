@@ -11,6 +11,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Billing Date" max_length="40" name="u_billing_date" read_only="true" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Incident" max_length="32" name="u_incident" reference="incident" type="reference"/>
+        <element label="Update Total" max_length="40" name="u_update_total" read_only="true" type="boolean"/>
         <index name="index">
             <element name="u_incident"/>
         </index>
