@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_rate_code" label="Rate Code" language="en" table="x_soud2_manual_bil_adjustments_upload">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_rate_code</element>
+            <help/>
+            <hint/>
+            <label>Rate Code</label>
+            <language>en</language>
+            <name>x_soud2_manual_bil_adjustments_upload</name>
+            <plural>Rate Codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dyearsley</sys_created_by>
+            <sys_created_on>2021-03-04 22:17:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e34cdcc81b76ec10cd145312604bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rate Code</sys_name>
+            <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+            <sys_update_name>sys_documentation_x_soud2_manual_bil_adjustments_upload_u_rate_code_en</sys_update_name>
+            <sys_updated_by>dyearsley</sys_updated_by>
+            <sys_updated_on>2021-03-04 22:17:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

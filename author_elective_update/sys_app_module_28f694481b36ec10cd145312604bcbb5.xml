@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Manual Billing Adjustments</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_soud2_manual_bil_manual_billing_adjustments</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-03-04 21:53:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>28f694481b36ec10cd145312604bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manual Billing Adjustments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_app_module_28f694481b36ec10cd145312604bcbb5</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-03-04 21:53:41</sys_updated_on>
+        <timeline_page/>
+        <title>Manual Billing Adjustments</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_app_module_28f694481b36ec10cd145312604bcbb5</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Manual Billing Adjustments</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_soud2_manual_bil_manual_billing_adjustments</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>dyearsley</sys_created_by><sys_created_on>2021-03-04 21:53:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>28f694481b36ec10cd145312604bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manual Billing Adjustments</sys_name><sys_overrides/><sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope><sys_update_name>sys_app_module_28f694481b36ec10cd145312604bcbb5</sys_update_name><sys_updated_by>dyearsley</sys_updated_by><sys_updated_on>2021-03-04 21:53:41</sys_updated_on><timeline_page/><title>Manual Billing Adjustments</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1131614792</payload_hash>
+        <record_name>Manual Billing Adjustments</record_name>
+        <reverted_from/>
+        <source>0717764bdb16e890b52c5688dc961948</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-03-04 21:53:42</sys_created_on>
+        <sys_id>ecf694481b36ec10cd145312604bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177ff3b72f30000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-03-04 21:53:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e4f694484336ec105a79d77a9ea3c5b9</update_guid>
+        <update_guid_history>e4f694484336ec105a79d77a9ea3c5b9:1131614792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-03-05 09:32:27">7007dc101b7aa050cd145312604bcb70</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-03-05 16:32:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6f3b5fe0076e49e58bc1d325a79113c1</sys_id>
+        <sys_metadata>28f694481b36ec10cd145312604bcbb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manual Billing Adjustments</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_app_module_28f694481b36ec10cd145312604bcbb5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_28f694481b36ec10cd145312604bcbb5">ecf694481b36ec10cd145312604bcbb9</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-03-05 16:32:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

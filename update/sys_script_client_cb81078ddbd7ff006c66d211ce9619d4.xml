@@ -15,29 +15,18 @@
         return;
     }
 
-// Ryan: Updated as resolution to INC1370075 - marked inactive because the rate field is not editable.
-// Because the field can't be changed manually there is no reason to run this code.
-
+    //Update for Paris Release. Needs less formatting 
     var rate = g_form.getValue('u_rate_value');
     if (rate) {
-		// Extract the currency type (i.e. USD) from the rate field, which has a currency format of USD;0.00
-		var currencyType = rate.split(';')[0];
-		// Extract the numerical value from the rate field, which has a currency format of USD;0.00
-		var amount = rate.split(';')[1];
-        //Calculate the Total.
-        var multiplier = 1;
-        var qty = g_form.getValue('u_quantity');
-        if (qty) {
-            qty = (newValue.replace(/,/g, ''));
-        } else {
-			qty = 0;
-		}
-        var firstChar = amount.charAt(0);
-        if (firstChar == '(' || firstChar == '-') {
-            multiplier = -1;
-        }
-        var total = parseFloat(amount) * parseFloat(qty) * parseFloat(multiplier);
-		var formattedCurrency = currencyType + ';' + total.toFixed(2);
+        // Extract the currency type (i.e. USD) from the rate field, which has a currency format of USD;0.00
+        var currencyType = rate.split(';')[0];
+        // Extract the numerical value from the rate field, which has a currency format of USD;0.00
+        var amount = rate.split(';')[1];
+        // Clean out any formatting separators
+        var qty = newValue.replace(/,/g, '');
+        //Calculate the Total
+        var total = parseFloat(amount) * parseFloat(qty);
+        var formattedCurrency = currencyType + ';' + total.toFixed(2);
         g_form.setValue('u_total', formattedCurrency);
     }
 }]]></script>
@@ -47,7 +36,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cb81078ddbd7ff006c66d211ce9619d4</sys_id>
-        <sys_mod_count>97</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_name>Update Total on Rate Value Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -55,8 +44,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_client_cb81078ddbd7ff006c66d211ce9619d4</sys_update_name>
-        <sys_updated_by>ryant</sys_updated_by>
-        <sys_updated_on>2020-10-13 22:51:04</sys_updated_on>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-03-02 22:14:47</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
