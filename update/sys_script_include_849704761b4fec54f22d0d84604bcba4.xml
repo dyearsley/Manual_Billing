@@ -2,12 +2,12 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_soud2_manual_bil.Manual Billing</api_name>
+        <api_name>x_soud2_manual_bil.ManualBillingScripts</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description>This Script will do billing.&#13;
 It will also work with approvals to determine if a records is ready to be submitted for approval.</description>
-        <name>Manual Billing</name>
+        <name>ManualBillingScripts</name>
         <script><![CDATA[var ManualBilling = Class.create();
 ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     //type: 'ManualBilling',
@@ -16,7 +16,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
         //This will only allow a user to request approval if all details have approvers.
         var qryA = 'u_billing_adjustment=' + sysid + '^active=true^u_ru_approver.u_approversISEMPTY'; //Query approvers
-        var gaMBA = new GlideAggregate('x_soud2_manual_bil_adjustment_details'); //Manual Billing Approvers
+        var gaMBA = new GlideAggregate('x_soud2_manual_bil_adjustment_details'); //ManualBillingScripts Approvers
         gaMBA.addEncodedQuery(qryA);
         gaMBA.addAggregate('COUNT', 'u_billing_adjustment');
         gaMBA.query();
@@ -29,7 +29,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         }
         //This will check for any invalid ELCID's.
         var qryE = 'u_billing_adjustment=' + sysid + '^active=true^u_elcid.u_elcidISEMPTY'; //Query ELCID's
-        var gaMBE = new GlideAggregate('x_soud2_manual_bil_adjustment_details'); //Manual Billing ELCID's
+        var gaMBE = new GlideAggregate('x_soud2_manual_bil_adjustment_details'); //ManualBillingScripts ELCID's
         gaMBE.addEncodedQuery(qryE);
         gaMBE.addAggregate('COUNT', 'u_billing_adjustment');
         gaMBE.query();
@@ -83,14 +83,14 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2021-03-25 20:07:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>849704761b4fec54f22d0d84604bcba4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Manual Billing</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ManualBillingScripts</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_849704761b4fec54f22d0d84604bcba4</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2021-03-25 20:12:32</sys_updated_on>
+        <sys_updated_on>2021-03-25 20:23:43</sys_updated_on>
     </sys_script_include>
 </record_update>

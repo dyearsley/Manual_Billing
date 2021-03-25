@@ -16,7 +16,7 @@
     }
     //Use Ajax to get the Agency
     var rateRot = g_form.getValue('u_rate_description');
-    var ga = new GlideAjax('ManualBilling');
+    var ga = new GlideAjax('ManualBillingScripts');
     ga.addParam('sysparm_name', 'getRateInformation');
     ga.addParam('sysparm_revenue', rateRot);
     ga.getXMLAnswer(_getAnswer);
@@ -63,7 +63,7 @@ function _getAnswer(ans) {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>2f2eee57db1373007adf5dd5ce9619df</sys_id>
-        <sys_mod_count>111</sys_mod_count>
+        <sys_mod_count>112</sys_mod_count>
         <sys_name>Get Rate Information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
@@ -71,8 +71,8 @@ function _getAnswer(ans) {
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_client_2f2eee57db1373007adf5dd5ce9619df</sys_update_name>
-        <sys_updated_by>ryant</sys_updated_by>
-        <sys_updated_on>2020-10-13 22:48:43</sys_updated_on>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-03-25 20:25:43</sys_updated_on>
         <table>x_soud2_manual_bil_adjustment_details</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
