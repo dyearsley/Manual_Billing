@@ -28,7 +28,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
                 gs.addErrorMessage('You have detail records with no approvers.');
             }
         }       
-		//This will check for any invalid ELCID's
+		//This will check for any invalid ELCID's.
         var qryE = 'u_billing_adjustment=' + sysid + '^active=true^u_elcid.u_elcidISEMPTY'; //Query ELCID's
         var gaMBE = new GlideAggregate('x_soud2_manual_bil_adjustment_details'); //Manual Billing ELCID's
         gaMBE.addEncodedQuery(qryE);
@@ -84,7 +84,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-08-16 21:12:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
-        <sys_mod_count>215</sys_mod_count>
+        <sys_mod_count>216</sys_mod_count>
         <sys_name>ManualBilling</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy>read</sys_policy>
@@ -92,6 +92,6 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2021-03-25 19:23:23</sys_updated_on>
+        <sys_updated_on>2021-03-25 19:33:59</sys_updated_on>
     </sys_script_include>
 </record_update>
