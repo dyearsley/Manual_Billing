@@ -13,15 +13,32 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     //type: 'ManualBilling',
     checkAdjustmentRecord: function(sysid) {
         var ans = true;
-        //var qry = 'u_billing_adjustment=f0854749db370850b52c5688dc96199b^u_ru_approver.u_approversISEMPTY^active=true'
-        var qry = 'u_billing_adjustment=' + sysid + '^active=true^u_ru_approver.u_approversISEMPTY';
-        var gr = new GlideRecord('x_soud2_manual_bil_adjustment_details');		
-        gr.addEncodedQuery(qry);
-        gr.setLimit(1);
-        gr.query();		
-		
-        if (gr.hasNext()) {
-            ans = false;
+	
+        //This will only allow a user to request approval if all details have approvers.
+        var qryA = 'u_billing_adjustment=' + sysid + '^active=true^u_ru_approver.u_approversISEMPTY'; //Query approvers
+        var gaMBA = new GlideAggregate('x_soud2_manual_bil_adjustment_details'); //Manual Billing Approvers
+        gaMBA.addEncodedQuery(qryA);
+        gaMBA.addAggregate('COUNT', 'u_billing_adjustment');
+        gaMBA.query();
+       
+        if (gaMBA.next()) {
+            if (gaMBA.getAggregate('COUNT', 'u_billing_adjustment') > 0) {
+                ans = false;
+                gs.addErrorMessage('You have detail records with no approvers.');
+            }
+        }       
+		//This will check for any invalid ELCID's
+        var qryE = 'u_billing_adjustment=' + sysid + '^active=true^u_elcid.u_elcidISEMPTY'; //Query ELCID's
+        var gaMBE = new GlideAggregate('x_soud2_manual_bil_adjustment_details'); //Manual Billing ELCID's
+        gaMBE.addEncodedQuery(qryE);
+        gaMBE.addAggregate('COUNT', 'u_billing_adjustment');
+        gaMBE.query();
+
+        if (gaMBE.next()) {
+            if (gaMBE.getAggregate('COUNT', 'u_billing_adjustment') > 0) {
+                ans = false;
+				gs.addErrorMessage('There are invalid ELCIDs in the Detail records');
+            }
         }
         return ans;
     },
@@ -32,7 +49,6 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         if (gr.get(userRec)) {
             var response = [];
             ans = gr.company + ',' + gr.company.name;
-            //gs.logError('response: ' + ans);
             return ans;
         }
         return 'failed';
@@ -67,14 +83,14 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-08-16 21:12:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
-        <sys_mod_count>185</sys_mod_count>
+        <sys_mod_count>213</sys_mod_count>
         <sys_name>ManualBilling</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
-        <sys_updated_by>ryant</sys_updated_by>
-        <sys_updated_on>2020-10-13 22:43:08</sys_updated_on>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-03-25 18:22:08</sys_updated_on>
     </sys_script_include>
 </record_update>
