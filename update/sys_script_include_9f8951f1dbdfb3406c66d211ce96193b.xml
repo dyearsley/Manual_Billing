@@ -5,7 +5,9 @@
         <api_name>x_soud2_manual_bil.ManualBilling</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
-        <description>This will get the Rate Code Description, Revenue Unit and Rate Value.</description>
+        <description>This also deterimines if a user can request approval. It requires valid approvers for each detail record, and a valid ELCID for each detail record.&#13;
+This will get the Rate Code Description, Revenue Unit and Rate Value.&#13;
+</description>
         <name>ManualBilling</name>
         <script><![CDATA[var ManualBilling = Class.create();
 ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
@@ -83,7 +85,7 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-08-16 21:12:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f8951f1dbdfb3406c66d211ce96193b</sys_id>
-        <sys_mod_count>213</sys_mod_count>
+        <sys_mod_count>214</sys_mod_count>
         <sys_name>ManualBilling</sys_name>
         <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
         <sys_policy>read</sys_policy>
@@ -91,6 +93,6 @@ ManualBilling.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
         <sys_update_name>sys_script_include_9f8951f1dbdfb3406c66d211ce96193b</sys_update_name>
         <sys_updated_by>dyearsley</sys_updated_by>
-        <sys_updated_on>2021-03-25 18:22:08</sys_updated_on>
+        <sys_updated_on>2021-03-25 19:16:07</sys_updated_on>
     </sys_script_include>
 </record_update>
