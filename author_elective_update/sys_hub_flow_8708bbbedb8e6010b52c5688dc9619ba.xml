@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This will control the Approvals for Manual Billing</description>
+        <internal_name>manual_billing_approvals</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Manual Billing Approvals</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-02-04 20:33:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8708bbbedb8e6010b52c5688dc9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manual Billing Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name>sys_hub_flow_8708bbbedb8e6010b52c5688dc9619ba</sys_update_name>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-02-04 20:33:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="DELETE" query="document_key=8708bbbedb8e6010b52c5688dc9619ba"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=8708bbbedb8e6010b52c5688dc9619ba^sys_idNOT INc308bbbedb8e6010b52c5688dc9619bd"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>8708bbbedb8e6010b52c5688dc9619ba</id>
+        <name>Manual Billing Approvals</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-02-04 20:33:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c308bbbedb8e6010b52c5688dc9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-02-04 20:33:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</application>
+        <comments/>
+        <file_path/>
+        <instance_id>e1981d624f8a5604152a99701310c715</instance_id>
+        <instance_name>utahdev1</instance_name>
+        <name>sys_hub_flow_8708bbbedb8e6010b52c5688dc9619ba</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>This will control the Approvals for Manual Billing</description><internal_name>manual_billing_approvals</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Manual Billing Approvals</name><natlang/><outputs/><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>dyearsley</sys_created_by><sys_created_on>2021-02-04 20:33:22</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>8708bbbedb8e6010b52c5688dc9619ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manual Billing Approvals</sys_name><sys_overrides/><sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope><sys_update_name>sys_hub_flow_8708bbbedb8e6010b52c5688dc9619ba</sys_update_name><sys_updated_by>dyearsley</sys_updated_by><sys_updated_on>2021-02-04 20:33:22</sys_updated_on><type>flow</type></sys_hub_flow><sys_variable_value action="delete_multiple" query="document_key=8708bbbedb8e6010b52c5688dc9619ba"/><sys_flow_cat_variable_model action="delete_multiple" query="id=8708bbbedb8e6010b52c5688dc9619ba^sys_idNOT INc308bbbedb8e6010b52c5688dc9619bd"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>8708bbbedb8e6010b52c5688dc9619ba</id><name>Manual Billing Approvals</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>dyearsley</sys_created_by><sys_created_on>2021-02-04 20:33:22</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c308bbbedb8e6010b52c5688dc9619bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope><sys_update_name/><sys_updated_by>dyearsley</sys_updated_by><sys_updated_on>2021-02-04 20:33:22</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-203502679</payload_hash>
+        <record_name>Manual Billing Approvals</record_name>
+        <reverted_from/>
+        <source>75593c18db5aac10b52c5688dc96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-02-08 22:32:30</sys_created_on>
+        <sys_id>5ba9f458db5aac10b52c5688dc961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17783c65b490000001</sys_recorded_at>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-02-08 22:32:30</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>1ba9f458345aac10c2dfffa324322f57</update_guid>
+        <update_guid_history>4b08bbbe368e6010638f584e0c9b16c1:-203502679,0397f810e35aac10843e9328a9f8695a:73461613,4b08bbbe368e6010638f584e0c9b16c1:-203502679</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyearsley</sys_created_by>
+        <sys_created_on>2021-03-30 16:05:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>05eb11a1ecdd49c0803162ebc6bc9964</sys_id>
+        <sys_metadata>8708bbbedb8e6010b52c5688dc9619ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manual Billing Approvals</sys_name>
+        <sys_package display_value="Manual Billing" source="x_soud2_manual_bil">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Manual Billing">a369cbe31bf7e3005ae0c91e1e4bcb51</sys_scope>
+        <sys_scope_delete display_value="">279a16034fba4d2190cc50f42cc1ed81</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_8708bbbedb8e6010b52c5688dc9619ba</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_8708bbbedb8e6010b52c5688dc9619ba">5ba9f458db5aac10b52c5688dc961957</sys_update_version>
+        <sys_updated_by>dyearsley</sys_updated_by>
+        <sys_updated_on>2021-03-30 16:05:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
